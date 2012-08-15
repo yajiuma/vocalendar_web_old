@@ -40,7 +40,6 @@
 	<script src="js/jquery.easing.js"></script>
 	<script src="js/jquery.gcal_flow.js"></script>
 	<script src="js/jquery.dropkick-1.0.0.js"></script>
-	<script src="js/jquery.vgrid.min.js"></script>
 	<script src="js/vocalendar-search.js"></script>
 	<!--<script src="js/jquery.pinnedfooter.js"></script>//-->
 	
@@ -96,7 +95,7 @@
 	<div id="vocalendarCNT">
 		
 		<header>
-			<h1><a href="/">VOCALENDAR（ボカレンダー）</a></h1>
+			<h1 id="vocalendarTitle"><a href="/">VOCALENDAR（ボカレンダー）</a></h1>
 			<nav>
 				<ul>
 					<li id="nav01"><a href="about/">about</a></li>
@@ -111,7 +110,7 @@
 				<option value='0'>メイン</option>
 				<option value='1'>放送系</option>
 				</select>
-				<input type='text' name='VS_searchstring' id='VS_searchstring'/>
+				<input type='text' name='VS_searchstring' id='VS_searchstring' autofocus />
 				<input type='button' name='VS_execute' id='VS_execute' value='検索' />
 				</form>
 			</section>
@@ -122,9 +121,7 @@
 			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="900" height="650" frameborder="0" scrolling="no"></iframe>
 		</section>
 		
-		<section id='VS_resultContainer'>
-			hogehoge
-		</section>
+		<section id='VS_resultContainer'></section>
 		
 		<!-- GL //-->
 		<aside id="glCNT">
@@ -135,7 +132,7 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/vocalendar-elrowaillust-gumi-r3.png" alt="GUMI&amp;初音ミク@VOCALENDAR" />
+			<img src="images/vocalendar-elrowaillust-ruka-r4.png" alt="GUMI&amp;初音ミク@VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>

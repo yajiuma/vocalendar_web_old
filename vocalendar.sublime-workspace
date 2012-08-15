@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.tpl",
+			"settings":
+			{
+				"buffer_size": 8668,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"selected_items":
+		[
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"preference",
+				"Preferences: Settings - Default"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"open fi",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"open fie",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"sftp v",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp ",
+				"SFTP: Browse Server…"
+			],
+			[
+				"git",
+				"GitHub: Update Gist"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pacage insta",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				":$ - EOF"
+			],
+			[
+				"sftp browse",
+				"SFTP: Browse Server…"
+			],
+			[
+				"packe list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"tweet",
+				"Tweet"
+			],
+			[
+				"ftp bro",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"ftp v",
+				"SFTP: Browse Server…"
+			],
+			[
+				"view ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"view side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"ftp remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"packaget inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"SFTp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brow remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sfto",
+				"Set Syntax: SFTP Output Panel"
+			],
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 366.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yajiuma/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/yajiuma/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/yajiuma/Dropbox/git/vocalendar_web/css/project-vocalendar-august2012.css",
+		"/Users/yajiuma/Dropbox/git/vocalendar_web/index.tpl",
+		"/Users/yajiuma/git/vocalendar-search/vocalendar-search.js",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1344489932/vocalendar/var/www/default/august2012/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1344490086/vocalendar/var/www/default/august2012/js/vocalendar-search.js",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1344489972/vocalendar/var/www/default/august2012/css/project-vocalendar-august2012.css",
+		"/Users/yajiuma/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343821106/vocalendar/var/www/default/august2012/js/vocalendar-search.js",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343872153/vocalendar/var/www/default/august2012/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343872228/vocalendar/var/www/default/august2012/css/project-vocalendar-july2012.css",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343821495/vocalendar/var/www/default/august2012/gcalendar-wrapper-sakura.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343821221/vocalendar/var/www/default/august2012/gcalendar-wrapper-sakura.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343798265/vocalendar/var/www/default/august2012/css/project-vocalendar-july2012.css",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343797677/vocalendar/var/www/default/august2012/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343794173/vocalendar/var/www/default/august2012/js/vocalendar.js",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343797817/vocalendar/var/www/default/august2012/js/vocalendar-search.js",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343794105/vocalendar/var/www/default/august2012/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300766/vocalendar/var/www/default/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300797/vocalendar/var/www/default/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300733/vocalendar/var/www/default/images/combined_v22.png",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300665/vocalendar/var/www/default/gallery/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300714/vocalendar/var/www/default/about/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342677141/vocalendar/var/www/default/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342921279/vocalendar/var/www/default/gallery/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342677218/vocalendar/var/www/default/gallery/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342677196/vocalendar/var/www/default/about/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342523608/vocalendar/var/www/default/gallery/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342522179/vocalendar/var/www/default/gallery/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342523509/vocalendar/var/www/default/gcalendar-wrapper-sakura.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342520659/vocalendar/var/www/default/july2012/css/project-vocalendar-july2012.css",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342520583/vocalendar/var/www/default/july2012/gallery/index.php",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342520483/vocalendar/var/www/default/july2012/index.tpl",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342521709/vocalendar/var/www/default/july2012/about/index.php",
+		"/Users/yajiuma/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/vocalendar",
+		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1342520316/vocalendar/var/www/default/july2012/index.tpl"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input",
+			"bannerCNT",
+			"!",
+			"検索",
+			"VCLnavi",
+			"/\",",
+			"username"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.tpl",
+					"settings":
+					{
+						"buffer_size": 8668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4257,
+								4257
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2055.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300766/vocalendar/var/www/default/index.php"
+			],
+			[
+				"tpl",
+				"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300797/vocalendar/var/www/default/index.tpl"
+			],
+			[
+				"inde",
+				"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1343300797/vocalendar/var/www/default/index.tpl"
+			],
+			[
+				"untie",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

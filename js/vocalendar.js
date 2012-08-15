@@ -122,20 +122,7 @@ $(function() {
 	// dropkick: プルダウンカスタマイズ用
 	$('.dropkick').dropkick();
 	
-	
-	//setup
-	var vg = $("#grid-content").vgrid({
-		easing: "easeOutQuint",
-		useLoadImageEvent: true,
-		useFontSizeListener: true,
-		time: 400,
-		delay: 20,
-		fadeIn: {
-			time: 500,
-			delay: 50
-		}
-	});
-	
+		
 }); // 初期化終了
 
 

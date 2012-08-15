@@ -50,7 +50,7 @@ header {
 	position: relative; display: block;
 	margin: 0 auto; padding: 0;
 	width: 1150px; height: 88px; }
-h1 {
+#vocalendarTitle {
 	position: absolute; display: block;
 	margin: 0; padding: 0;
 	width: 381px; height: 36px;
@@ -60,7 +60,7 @@ h1 {
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	overflow: hidden; }
-h1 a {
+#vocalendarTitle a {
 	position: relative; display: block;
 	margin: 0; padding: 0;
 	width: 381px; height: 36px;
@@ -195,7 +195,7 @@ footer a {
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 214px; left: 15px; bottom: -20px;
+	width: 270px; left: 15px; bottom: -20px;
 	position: absolute; display: block;
 	visibility: visible;
 }
@@ -453,21 +453,130 @@ ul.newsticker .gcf-item-date-block {
 #VS_resultContainer {
 	position: relative; display: block;
 	margin: 20px 0 0; padding: 0px;
-	width: 900px;
+	width: 1150px;
 	font-size: 14px; color: #666666; line-height: 125%;
 }
-#VS_resultContainer li {
+#VS_resultContainer .events {
+}
+.VCLevent {
 	position: relative; display: block;
-	margin: 5px; padding: 5px;
+	margin: 0 10px 10px 0; padding: 0 0 0 100px;
 	list-style-type: none;
-	width: 200px;
+	width: 270px;
+	height: 120px;
+	overflow: hidden;
 	word-wrap: break-word;
 	font-size: 12px;
-	border: 1px solid #cccccc;
+	background-color: #fff;
+	border: 1px solid #999;
 	border-radius: 2px;
+	box-shadow: 0px 0px 5px #ccc;
+	float: left;
 }
-
-
+.VCLevent.c3 {
+	margin-right: 0;
+}
+.VCLevent .content {
+	display: none;
+}
+.VCLevent .title {
+	font-size: 13px;
+	line-height: 130%;
+	margin: 5px;
+	padding: 0;
+	color: #666666;
+}
+.VCLevent .start {
+	margin: 0px 10px 3px;
+}
+.VCLevent .end {
+	margin: 0px 10px 5px;
+}
+.VCLevent .date {
+	margin: 0 5px 0 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 100%;
+	color: #999;
+	float: left;
+}
+.VCLevent .start .date:before {
+	content: "開始：";
+}
+.VCLevent .end .date:before {
+	content: "終了：";
+}
+.VCLevent .time {
+	font-size: 12px;
+	line-height: 100%;
+	color: #777;
+	font-weight: bold;
+}
+.VCLevent .where {
+	margin: 0px 10px 5px;
+	font-size: 12px;
+	line-height: 125%;
+	color: #aaa;
+}
+.VCLevent .badge {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 120px;
+	left: 0;
+	top: 0;
+	background-color: #ccc;
+	border-radius: 2px 0px 0px 2px;
+	border-right: 1px solid #999;
+}
+.VCLevent .badge .month {
+	position: absolute;
+	display: block;
+	padding: 3px 0 5px;
+	width: 100px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: white;
+	text-shadow: 0px -1px 0px #666;
+	text-align: center;
+	background-color: #aaa;
+}
+.VCLevent .badge .day {
+	position: absolute;
+	display: block;
+	width: 100px;
+	top: 37px;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 48px;
+	font-family: Helvetica;
+	line-height: 100%;
+	text-shadow: 0px -1px 0px gray;
+	color: white;
+	text-align: center;
+}
+.VCLevent .badge .dow {
+	position: absolute;
+	display: block;
+	padding: 5px 0;
+	width: 100px;
+	bottom: 0;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: white;
+	text-shadow: 0px -1px 0px #666;
+	text-align: center;
+	background-color: #aaa;
+}
+.VCLevent.sun .badge {
+	background-color: #f88;
+}
+.VCLevent.sat .badge {
+	background-color: #88f;
+}
 
 /*** ABOUTページ ***/
 #heroCNT {

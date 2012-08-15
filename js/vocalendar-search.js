@@ -83,6 +83,7 @@ jQuery( function($){
 			var target = formatter ? formatter : 'yyyy-MM-dd';
 			target = target.replace('yyyy', this.date.getFullYear());
 			target = target.replace('MM', this._filZero(this.date.getMonth() + 1 ));
+			target = target.replace('m', this.date.getMonth() +1);
 			target = target.replace('dd', this._filZero(this.date.getDate()));
 			return  target; 
 		},
@@ -322,6 +323,8 @@ jQuery( function($){
 			if ( calendarContainer ) {
 				calendarContainer.fadeOut();
 			}
+			$('#glCNT').fadeOut();
+			$('#elrowaCNT').fadeOut();
 		
 			var resultContainer = $('#' + Vocalendar.SearchUI.RESULT_CONTAINER);
 			resultContainer.empty();
@@ -346,7 +349,7 @@ jQuery( function($){
 			resultContainer.empty();
 
 			// ツリールート
-			var events = $('<ul>').addClass('events');
+			//var events = $('<ul>').addClass('events');
 			jQuery.each( this.eventList, function( i, eventData) {
 				
 				var startData = exDate.RFC3339.parse(eventData.gd$when[0].startTime);
@@ -357,20 +360,20 @@ jQuery( function($){
 				}
 
 				// イベント
-				var event = $('<li>').addClass('event').addClass( i % 2 == 0 ? 'even': 'odd' );
-				event.attr( 'id', 'event_' + i);
+				var event = $('<li>').addClass('event').addClass( i % 3 );
+				//event.attr( 'id', 'event_' + i);
 				
 				// イベント属性
-				var vclEvent = $('<article>').addClass('VCLevent').addClass(startData.getDay('en').toLowerCase());
+				var event = $('<article>').addClass('VCLevent').addClass(startData.getDay('en').toLowerCase()).addClass('c'+i%3);
 				if ( !startData.isTimeEvent ) {
-					vclEvent.addClass('allday');
+					event.addClass('allday');
 				}
 				var header = $('<section>').addClass('header');
 				var title = $('<h1>').addClass('title').text(eventData.title.$t);
-				var startContainer = $('<div>').addClass('start');
+				var startContainer = $('<div>').addClass('start').addClass('clearfix');
 				var startDate = $('<p>').addClass('date').text(startData.toDateString('yyyy年MM月dd日'));
 				var startTime = startData.isTimeEvent ? $('<p>').addClass('time').text(startData.toTimeString('HH時mm分')) : null;
-				var endContainer = $('<div>').addClass('end');
+				var endContainer = $('<div>').addClass('end').addClass('clearfix');
 				var endDate = $('<p>').addClass('date').text(endData.toDateString('yyyy年MM月dd日'));
 				var endTime = endData.isTimeEvent ? $('<p>').addClass('time').text(endData.toTimeString('HH時mm分')) : null;
 
@@ -378,13 +381,13 @@ jQuery( function($){
 				var content = $('<p>').addClass('content').text(eventData.content.$t);
 				
 				var badge = $('<aside>').addClass('badge');
-				var month = $('<p>').addClass('month').text(startData.getMonthString('en').toUpperCase());
+				var month = $('<p>').addClass('month').text(startData.toDateString('yyyy年/m月'));
 				var day = $('<p>').addClass('day').text(startData.date.getDate());
 				var dow = $('<p>').addClass('dow').text(startData.getDay('en').toUpperCase());
 				
 				// 属性をイベントに追加
-				event.append(vclEvent);
-				vclEvent.append(header).append(where).append(content).append(badge);
+				//event.append(vclEvent);
+				event.append(header).append(where).append(content).append(badge);
 				header.append(title).append(startContainer).append(endContainer);
 				startContainer.append(startDate);
 				if ( startTime ) {
@@ -397,11 +400,11 @@ jQuery( function($){
 				badge.append(month).append(day).append(dow);
 
 				// ルートにイベントを追加
-				events.append(event);
-				
+				//events.append(event);
+				resultContainer.append(event);
 			});
 				
-			resultContainer.append(events);
+			//resultContainer.append(events);
 			
 		},
 		
