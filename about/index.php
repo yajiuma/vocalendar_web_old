@@ -27,8 +27,8 @@
 	<![endif]-->
 	
 	<!-- CSS FILEs //-->
-	<link rel="stylesheet" href="../css/html5reset-1.6.1.css" media="all" />
-	<link rel="stylesheet" href="../css/project-vocalendar-july2012.css" media="all" />
+	<link rel="stylesheet" href="/css/html5reset-1.6.1.css" media="all" />
+	<link rel="stylesheet" href="/css/project-vocalendar-august2012.css" media="all" />
 	
 	<!-- Google AJAX LIBRARIEs //-->
 	<!-- 使用する場合はそれぞれの読み込み箇所を書き換え //-->
@@ -93,7 +93,7 @@
 	<div id="vocalendarCNT">
 		
 		<header>
-			<h1><a href="../">VOCALENDAR（ボカレンダー）</a></h1>
+			<h1 id="vocalendarTitle"><a href="/">VOCALENDAR（ボカレンダー）</a></h1>
 			<nav>
 				<ul>
 					<li id="nav01"><a href="../about/">about</a></li>
