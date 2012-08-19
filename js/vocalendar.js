@@ -105,12 +105,15 @@ $(function() {
 			$("#bannerCNT").slideToggle('fast');
 		}
 	);
+	// 検索クローズ
 	$("#searchCloseBTN").click(function(){
 		if ($('#VS_events')) { $('#VS_events').remove(); }
 		$('#VS_resultContainer').fadeOut();
 		$('#googleCalCNT').fadeIn();
 		$('#glCNT').fadeIn();
 		$('#elrowaCNT').fadeIn();
+		// 検索フォーム有効化
+		$('#VS_searchstring, #VS_execute').removeAttr('disabled');
 	});
 
 	$("h1 a").hover(

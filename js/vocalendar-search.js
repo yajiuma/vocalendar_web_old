@@ -306,6 +306,11 @@ jQuery( function($){
 		// 初期化
 		init : function() {
 			// イベントハンドラの登録
+			Vocalendar.SearchUI.formEventBind();
+		},
+
+		// 検索フォームのイベントバインド
+		formEventBind : function() {
 			// 検索ボタン
 			$('#' + Vocalendar.SearchUI.EXECUTE).bind('click', Vocalendar.SearchUI.getEvents );
 			// フォーム（エンターキーで検索を走らせるため）
@@ -314,12 +319,21 @@ jQuery( function($){
 					Vocalendar.SearchUI.getEvents();
 					return false;
 					}
-				);
+			);
+		},
+		// 検索フォームのイベントバインド解除
+		formEventUnbind : function() {
+			$('#' + Vocalendar.SearchUI.EXECUTE).unbind();
+			$('#' + Vocalendar.SearchUI.CONDITION_CONTAINER).unbind();
 		},
 
 		// 検索開始
 		getEvents : function() {
 			
+			// フォーム要素を無効化
+			Vocalendar.SearchUI.formEventUnbind();
+			$('#VS_searchstring, #VS_execute').attr('disabled','disabled');
+
 			// 前回残飯の整理
 			var calendarContainer = $('#' + Vocalendar.CALENDAR_CONTAINER);
 			if ( calendarContainer ) {
@@ -434,6 +448,9 @@ jQuery( function($){
 			}
 			);
 
+			// 検索フォーム有効化
+			$('#VS_searchstring, #VS_execute').removeAttr('disabled');
+			Vocalendar.SearchUI.formEventBind();
 
 		},
 		
