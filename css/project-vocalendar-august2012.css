@@ -513,9 +513,9 @@ ul.newsticker .gcf-item-date-block {
 	word-wrap: break-word;
 	font-size: 12px;
 	background-color: #fff;
-	border: 1px solid #999;
+	border: 1px solid #777;
 	border-radius: 2px;
-	box-shadow: 0px 0px 5px #ccc;
+	box-shadow: 0px 0px 5px #999;
 	float: left;
 }
 .VCLevent.c3 {
@@ -534,15 +534,15 @@ ul.newsticker .gcf-item-date-block {
 	width: 350px;
 	left: -1px;
 	top: 120px;
-	color: #666;
+	color: #555;
 	font-size: 12px;
 	line-height: 140%;
 	text-shadow: 0px 1px 0px white;
-	border: 1px solid #999;
+	border: 1px solid #777;
 	border-radius: 0px 0px 5px 5px;
 	background-color: #f0f0f0;
 	z-index: 9999;
-	box-shadow: 0px 3px 5px gray;
+	box-shadow: 0px 4px 7px #555;
 }
 .VCLevent .content:before {
     content: ' ';
@@ -550,7 +550,7 @@ ul.newsticker .gcf-item-date-block {
     position: absolute;
     width: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #777;
     top: -20px;
     left: 50%;
     margin-left: -10px;
@@ -575,7 +575,7 @@ ul.newsticker .gcf-item-date-block {
 	line-height: 130%;
 	margin: 5px;
 	padding: 0;
-	color: #666666;
+	color: #555;
 }
 .VCLevent .start {
 	margin: 0px 10px 3px;
@@ -618,7 +618,7 @@ ul.newsticker .gcf-item-date-block {
 	top: 0;
 	background-color: #ccc;
 	border-radius: 2px 0px 0px 2px;
-	border-right: 1px solid #999;
+	border-right: 1px solid #777;
 }
 .VCLevent .badge .month {
 	position: absolute;
@@ -644,7 +644,7 @@ ul.newsticker .gcf-item-date-block {
 	font-size: 48px;
 	font-family: Helvetica;
 	line-height: 100%;
-	text-shadow: 0px -1px 0px gray;
+	text-shadow: 0px 0px 3px black;
 	color: white;
 	text-align: center;
 }
