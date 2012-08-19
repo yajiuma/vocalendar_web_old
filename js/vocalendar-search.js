@@ -301,6 +301,7 @@ jQuery( function($){
 		EXECUTE : 'VS_execute',
 		CONDITION_CONTAINER : 'VS_conditionContainer',
 		RESULT_CONTAINER : 'VS_resultContainer',
+		EVENTS_CONTAINER : 'VS_events',
 		
 		// 初期化
 		init : function() {
@@ -318,17 +319,21 @@ jQuery( function($){
 
 		// 検索開始
 		getEvents : function() {
-		
+			
+			// 前回残飯の整理
 			var calendarContainer = $('#' + Vocalendar.CALENDAR_CONTAINER);
 			if ( calendarContainer ) {
 				calendarContainer.fadeOut();
 			}
+			$('#VS_events').remove();
+
+			// 基本画面隠し
 			$('#glCNT').fadeOut();
 			$('#elrowaCNT').fadeOut();
-		
-			var resultContainer = $('#' + Vocalendar.SearchUI.RESULT_CONTAINER);
-			resultContainer.empty();
-			resultContainer.append('検索中');
+
+			// 検索結果画面の表示
+			$('#VCLsearchIndicator').show();
+			$('#VS_resultContainer').fadeIn();
 			
 			var param = {
 				// バグ対応？半角スペースを全角に変換することでand検索を可能にする。
@@ -346,10 +351,10 @@ jQuery( function($){
 		writeResult : function( eventList ) {
 
 			var resultContainer = $('#' + Vocalendar.SearchUI.RESULT_CONTAINER);
-			resultContainer.empty();
+			$('#VCLsearchIndicator').fadeOut();
 
 			// ツリールート
-			//var events = $('<ul>').addClass('events');
+			var events = $('<article>').attr('id','VS_events')
 			jQuery.each( this.eventList, function( i, eventData) {
 				
 				var startData = exDate.RFC3339.parse(eventData.gd$when[0].startTime);
@@ -368,7 +373,7 @@ jQuery( function($){
 				if ( !startData.isTimeEvent ) {
 					event.addClass('allday');
 				}
-				var header = $('<section>').addClass('header');
+				var header = $('<section>').addClass('body');
 				var title = $('<h1>').addClass('title').text(eventData.title.$t);
 				var startContainer = $('<div>').addClass('start').addClass('clearfix');
 				var startDate = $('<p>').addClass('date').text(startData.toDateString('yyyy年MM月dd日'));
@@ -378,8 +383,10 @@ jQuery( function($){
 				var endTime = endData.isTimeEvent ? $('<p>').addClass('time').text(endData.toTimeString('HH時mm分')) : null;
 
 				var where = $('<p>').addClass('where').text(eventData.gd$where[0].valueString);
-				var content = $('<p>').addClass('content').text(eventData.content.$t);
-				
+				if (eventData.content.$t != "") {
+					var content = $('<p>').addClass('content').text(eventData.content.$t);
+				}
+
 				var badge = $('<aside>').addClass('badge');
 				var month = $('<p>').addClass('month').text(startData.toDateString('yyyy年/m月'));
 				var day = $('<p>').addClass('day').text(startData.date.getDate());
@@ -387,8 +394,9 @@ jQuery( function($){
 				
 				// 属性をイベントに追加
 				//event.append(vclEvent);
-				event.append(header).append(where).append(content).append(badge);
-				header.append(title).append(startContainer).append(endContainer);
+				event.append(header).append(badge);
+				if (content) { event.append(content); }
+				header.append(title).append(startContainer).append(endContainer).append(where);
 				startContainer.append(startDate);
 				if ( startTime ) {
 					startContainer.append(startTime);
@@ -401,11 +409,32 @@ jQuery( function($){
 
 				// ルートにイベントを追加
 				//events.append(event);
-				resultContainer.append(event);
+				events.append(event);
 			});
 				
-			//resultContainer.append(events);
+			resultContainer.append(events);
 			
+			// 検索結果がない場合
+			if (this.eventList.length == 0) {
+				var noresult = $('<p>').attr('id','noreslut').text('検索結果がありませんでした');
+				events.append(noresult);
+				noresult.fadeIn();
+			};
+
+			// AutoLink
+			$(".content").autolink();
+
+			// イベント詳細表示制御
+			$(".VCLevent").hover(
+			function() {
+				$(this).children('.content').fadeIn('fast');
+			},
+			function() {
+				$(this).children('.content').hide();
+			}
+			);
+
+
 		},
 		
 		dummy : 'dummy'

@@ -41,6 +41,8 @@
 	<script src="js/jquery.gcal_flow.js"></script>
 	<script src="js/jquery.dropkick-1.0.0.js"></script>
 	<script src="js/vocalendar-search.js"></script>
+	<script src="js/jquery.activity-indicator-1.0.0.js"></script>
+	<script src="js/jquery.autolink.js"></script>
 	<!--<script src="js/jquery.pinnedfooter.js"></script>//-->
 	
 	<!-- Add fancyBox -->
@@ -111,7 +113,7 @@
 				<option value='1'>放送系</option>
 				</select>
 				<input type='text' name='VS_searchstring' id='VS_searchstring' autofocus />
-				<input type='button' name='VS_execute' id='VS_execute' value='検索' />
+				<input type='button' name='VS_execute' id='VS_execute' value='検索' onClick="_gaq.push(['_trackEvent', 'Search', 'Search']);" />
 				</form>
 			</section>
 			
@@ -121,7 +123,12 @@
 			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="900" height="650" frameborder="0" scrolling="no"></iframe>
 		</section>
 		
-		<section id='VS_resultContainer'></section>
+		<!-- 検索結果エリア //-->
+		<section id='VS_resultContainer' class="clearfix">
+			<h2 id="VCLsearchResultTitle">イベント検索結果<span style="color:#aaa;font-size:20px;"> &nbsp;BETA</span></h2>
+			<a id="searchCloseBTN"></a>
+			<div id="VCLsearchIndicator">検索中</div>
+		</section>
 		
 		<!-- GL //-->
 		<aside id="glCNT">
@@ -132,7 +139,7 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/vocalendar-elrowaillust-ruka-r4.png" alt="GUMI&amp;初音ミク@VOCALENDAR" />
+			<img src="images/vocalendar-elrowaillust-gumi-r3.png" alt="GUMI@VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>
@@ -167,17 +174,15 @@
 					
 					<!-- 更新状況 //-->
 					<aside id="VCLcounter">
-						有志編集メンバー：<strong>35人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
+						有志編集メンバー：<strong>36人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 					</aside>
 					
-					<!--<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
+					<div id="actionBTN"><a id="actionBTNon"></a></div>
 				</div>
-				<!--
-				<section id="bannerCNT">
-					<a href="http://bit.ly/vcl90002" target="_blank"><img src="images/vocalendar-banner-vocad2012-lb.jpg" alt="" style="margin-right: 10px;" /></a>
-					<a href="http://bit.ly/vcl90003" target="_blank"><img src="images/vocalendar-banner-vocad2012-vb.jpg" alt="" class="clearfix" /></a>
+				<section id="bannerCNT" class="clearfix">
+					<a href="http://bit.ly/vcl90005" target="_blank"><img src="images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
+					<img src="images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />
 				</section>
-				//-->
 			</div>
 		</aside>
 		

@@ -3,18 +3,30 @@
 	{
 		"selected_items":
 		[
+			[
+				"end",
+				"end"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"VS",
+				"VS_resultContainer"
+			],
+			[
+				"VS_",
+				"VS_resultContainer"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.tpl",
-			"settings":
-			{
-				"buffer_size": 8668,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -176,10 +188,12 @@
 	},
 	"file_history":
 	[
+		"/Users/yajiuma/Dropbox/git/vocalendar_web/index.tpl",
+		"/Users/yajiuma/Dropbox/git/vocalendar_web/js/vocalendar.js",
+		"/Users/yajiuma/Dropbox/git/vocalendar_web/js/vocalendar-search.js",
+		"/Users/yajiuma/Dropbox/git/vocalendar_web/css/project-vocalendar-august2012.css",
 		"/Users/yajiuma/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/yajiuma/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/yajiuma/Dropbox/git/vocalendar_web/css/project-vocalendar-august2012.css",
-		"/Users/yajiuma/Dropbox/git/vocalendar_web/index.tpl",
 		"/Users/yajiuma/git/vocalendar-search/vocalendar-search.js",
 		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1344489932/vocalendar/var/www/default/august2012/index.tpl",
 		"/var/folders/39/vcl6n3ln0q75b7_3y8pkk7tr0000gn/T/sublime-sftp-browse-1344490086/vocalendar/var/www/default/august2012/js/vocalendar-search.js",
@@ -230,6 +244,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_filZero",
+			"toDateString",
+			"events",
+			"ga",
+			"検索",
 			"input",
 			"bannerCNT",
 			"!",
@@ -254,39 +273,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.tpl",
-					"settings":
-					{
-						"buffer_size": 8668,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4257,
-								4257
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2055.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -323,7 +311,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.436031998033,
 			1.0
 		],
 		"rows":

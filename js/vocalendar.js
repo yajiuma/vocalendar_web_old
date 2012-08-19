@@ -105,6 +105,14 @@ $(function() {
 			$("#bannerCNT").slideToggle('fast');
 		}
 	);
+	$("#searchCloseBTN").click(function(){
+		if ($('#VS_events')) { $('#VS_events').remove(); }
+		$('#VS_resultContainer').fadeOut();
+		$('#googleCalCNT').fadeIn();
+		$('#glCNT').fadeIn();
+		$('#elrowaCNT').fadeIn();
+	});
+
 	$("h1 a").hover(
 		function(){
 			$(this).stop();
@@ -122,6 +130,8 @@ $(function() {
 	// dropkick: プルダウンカスタマイズ用
 	$('.dropkick').dropkick();
 	
+	// activity-indicator
+	$('#VCLsearchIndicator').activity({segments: 10, steps: 10, opacity: 0.3, width: 5, space: 5, length: 7, color: '#0b0b0b', speed: 1.2});
 		
 }); // 初期化終了
 
@@ -155,6 +165,7 @@ function switchCal (num) {
 	});
 	visibleCal = num;
 }
+
 
 // ウィンドウ高さを取得
 function getWindowHeight() {

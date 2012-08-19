@@ -195,7 +195,7 @@ footer a {
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 270px; left: 15px; bottom: -20px;
+	width: 214px; left: 15px; bottom: -20px;
 	position: absolute; display: block;
 	visibility: visible;
 }
@@ -451,12 +451,58 @@ ul.newsticker .gcf-item-date-block {
 
 /*** 検索結果 ***/
 #VS_resultContainer {
-	position: relative; display: block;
-	margin: 20px 0 0; padding: 0px;
+	position: relative;
+	display: none;
+	margin: 20px 0 20px; padding: 0px;
 	width: 1150px;
+	min-height: 650px;
 	font-size: 14px; color: #666666; line-height: 125%;
 }
 #VS_resultContainer .events {
+}
+#VCLsearchResultTitle {
+	margin: 0 0 30px;
+	padding: 0 0 0 30px;
+	font-size: 32px;
+	font-weight: normal;
+	color: #666;
+	line-height: 100%;
+	text-shadow: 0px 1px 0px white;
+}
+#VCLsearchIndicator {
+	position: absolute;
+	left: 525px;
+	top: 250px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: bottom;
+}
+#searchCloseBTN {
+	position: absolute; display: block;
+	margin: 0; padding: 0;
+	left: 0px; top: 7px;
+	width: 20px; height: 21px;
+	background-image: url(../images/vocalendar-titlelogo-revb.png);
+	background-position: -305px -85px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#noreslut {
+	display: none;
+	margin: 200px auto 0;
+	width: 400px;
+	padding: 30px 50px;
+	font-size: 24px;
+	line-height: 100%;
+	text-shadow: 0px 1px 0px white;
+	color: #666;
+	text-align: center;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 3px;
+	border: 1px solid #999;
+	box-shadow: 0px 0px 10px #ccc;
 }
 .VCLevent {
 	position: relative; display: block;
@@ -464,7 +510,6 @@ ul.newsticker .gcf-item-date-block {
 	list-style-type: none;
 	width: 270px;
 	height: 120px;
-	overflow: hidden;
 	word-wrap: break-word;
 	font-size: 12px;
 	background-color: #fff;
@@ -476,8 +521,54 @@ ul.newsticker .gcf-item-date-block {
 .VCLevent.c3 {
 	margin-right: 0;
 }
+.VCLevent .header {
+	width: 170px;
+	height: 120px;
+	overflow: hidden;
+}
 .VCLevent .content {
+	position: absolute;
 	display: none;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 350px;
+	left: -1px;
+	top: 120px;
+	color: #666;
+	font-size: 12px;
+	line-height: 140%;
+	text-shadow: 0px 1px 0px white;
+	border: 1px solid #999;
+	border-radius: 0px 0px 5px 5px;
+	background-color: #f0f0f0;
+	z-index: 9999;
+	box-shadow: 0px 3px 5px gray;
+}
+.VCLevent .content:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+}
+.VCLevent .content:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #f0f0f0;
+    top: -19px;
+    left: 50%;
+    margin-left: -10px;
+}
+.content a {
+	color: #41A587;
+	font-weight: bold;
 }
 .VCLevent .title {
 	font-size: 13px;
