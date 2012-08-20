@@ -112,7 +112,7 @@
 				<option value='0'>メイン</option>
 				<option value='1'>放送系</option>
 				</select>
-				<input type='text' name='VS_searchstring' id='VS_searchstring' autofocus />
+				<input type='text' name='VS_searchstring' id='VS_searchstring' placeholder="VOCALENDAR検索" autofocus />
 				<input type='button' name='VS_execute' id='VS_execute' value='検索' onClick="_gaq.push(['_trackEvent', 'Search', 'Search']);" />
 				</form>
 			</section>
