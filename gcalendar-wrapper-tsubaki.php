@@ -250,7 +250,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 })();
 jQuery(function() {
 /* click tracking google ana */
-jQuery("a.subscribe-image").click(function(e) {
+jQuery(".subscribe-image").click(function(e) {
 _gaq.push(['_trackEvent', 'gcal', 'subscribe']);
 });
 });
