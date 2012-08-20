@@ -188,14 +188,14 @@
 						有志編集メンバー：<strong>35人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 					</aside>
 					
-					<!_-<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
+					<!--<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
 				</div>
-				<!--
-				<section id="bannerCNT">
-					<a href="http://vocad2012.takap.tk/" target="_blank"><img src="/images/vocalendar-banner-vocad2012-lb.jpg" alt="" style="margin-right: 10px;" /></a>
-					<a href="https://docs.google.com/spreadsheet/viewform?formkey=dG1xZFEtWTJtc2lhT2F4QWVkUUNjR2c6MQ#gid=0" target="_blank"><img src="/images/vocalendar-banner-vocad2012-vb.jpg" alt="" class="clearfix" /></a>
+					<div id="actionBTN"><a id="actionBTNon"></a></div>
+				</div>
+				<section id="bannerCNT" class="clearfix">
+					<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
+					<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />
 				</section>
-				//-->
 			</div>
 		</aside>
 		

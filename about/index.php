@@ -164,15 +164,12 @@
 					<aside id="VCLcounter">
 						有志編集メンバー：<strong>35人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 					</aside>
-					
-					<!--<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
+					<div id="actionBTN"><a id="actionBTNon"></a></div>
 				</div>
-				<!--
-				<section id="bannerCNT">
-					<a href="http://bit.ly/vcl90002" target="_blank"><img src="../images/vocalendar-banner-vocad2012-lb.jpg" alt="" style="margin-right: 10px;" /></a>
-					<a href="http://bit.ly/vcl90003" target="_blank"><img src="../images/vocalendar-banner-vocad2012-vb.jpg" alt="" class="clearfix" /></a>
+				<section id="bannerCNT" class="clearfix">
+					<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
+					<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />
 				</section>
-				//-->
 			</div>
 		</aside>
 		
