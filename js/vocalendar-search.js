@@ -227,9 +227,8 @@ jQuery( function($){
 		 * @param _completeFunc 検索終了時のコールバックメソッド
 		 */
 		getEvents : function(param, _completeFunc) {
-			if ( _completeFunc ) {
-				this.completeFunc = _completeFunc;
-			}
+
+			this._doComplete = _completeFunc ? _completeFunc : this._doComplete;
 			param['alt'] = 'json-in-script'
 			param['singleevents'] = true;
 			param['orderby'] = 'starttime';
@@ -248,7 +247,7 @@ jQuery( function($){
 													this.result = json;
 													// 結果が0件
 													if ( !json.feed.entry ) {
-														this.completeFunc();
+														this._complete( this.eventList );
 														return;
 													}
 													$.merge( this.eventList, json.feed.entry);
@@ -267,7 +266,7 @@ jQuery( function($){
 														this.getEvents(param);
 													} else {
 														// 次ページがなければ完了メソッドを呼び出す
-														this.completeFunc( this.eventList );
+														this._complete( this.eventList );
 													}
 												},
 								error : function(data) {
@@ -280,8 +279,56 @@ jQuery( function($){
 
 		result : null,
 
+		_complete : function( eventList ){
+
+			// 前処理
+			this._preComplete( eventList );
+
+			this._doComplete( eventList );
+
+			// 後処理
+			this._postComplete( eventList );
+
+
+		},
+
+		// ディフォルトの完了の前処理メソッド
+		_preComplete : function( eventList ){
+
+			if ( eventList.length == 0 ) {
+				return;
+			}
+
+			// 今日を表すイベントを検索結果に挿入
+			var today = new exDate.RFC3339();
+			var todayEvent = {	
+							id: {$t : "today"},
+							content: {$t : ""},
+							title: {$t : "今日", type : "text"},
+							gd$where: [{valueString : ""}], 
+							gd$when: [{ startTime : today.toDateString('yyyy-MM-dd'),
+										endTime :today.addDate(1).toDateString('yyyy-MM-dd')
+									}], 
+							dummy : "dummy"
+						}
+
+			var index = eventList.length;
+			jQuery.each( eventList, function( i, eventData) {
+				var startData = exDate.RFC3339.parse(eventData.gd$when[0].startTime);
+				if ( startData.date.getTime() >= today.date.getTime() ) {
+					index = ( i - 1 ) < 0 ? 0 : i - 1;
+					return false; // each break;
+				}
+			});
+
+			eventList.splice(index, 0, todayEvent);
+
+
+		},
+		_postComplete : function( eventList ){},
+
 		// ディフォルトの完了メソッド
-		completeFunc : function( eventList ){},
+		_doComplete : function( eventList ){},
 
 		dummy : 'dummy'
 	}
@@ -330,6 +377,10 @@ jQuery( function($){
 		// 検索開始
 		getEvents : function() {
 			
+			if ( $('#' + Vocalendar.SearchUI.STRING).val() == '' ) {
+				return;
+			}
+
 			// フォーム要素を無効化
 			Vocalendar.SearchUI.formEventUnbind();
 			$('#VS_searchstring, #VS_execute').attr('disabled','disabled');
@@ -379,14 +430,13 @@ jQuery( function($){
 				}
 
 				// イベント
-				var event = $('<li>').addClass('event').addClass( i % 3 );
-				//event.attr( 'id', 'event_' + i);
-				
 				// イベント属性
-				var event = $('<article>').addClass('VCLevent').addClass(startData.getDay('en').toLowerCase()).addClass('c'+i%3);
+				var event = $('<article>').addClass('VCLevent').addClass(startData.getDay('en').toLowerCase()).addClass('c' + i % 3);
+				event.attr( 'id', eventData.id.$t);
 				if ( !startData.isTimeEvent ) {
 					event.addClass('allday');
 				}
+				
 				var header = $('<section>').addClass('body');
 				var title = $('<h1>').addClass('title').text(eventData.title.$t);
 				var startContainer = $('<div>').addClass('start').addClass('clearfix');
@@ -407,9 +457,10 @@ jQuery( function($){
 				var dow = $('<p>').addClass('dow').text(startData.getDay('en').toUpperCase());
 				
 				// 属性をイベントに追加
-				//event.append(vclEvent);
 				event.append(header).append(badge);
-				if (content) { event.append(content); }
+				if (content) {
+					event.append(content);
+				}
 				header.append(title).append(startContainer).append(endContainer).append(where);
 				startContainer.append(startDate);
 				if ( startTime ) {
@@ -422,21 +473,20 @@ jQuery( function($){
 				badge.append(month).append(day).append(dow);
 
 				// ルートにイベントを追加
-				//events.append(event);
 				events.append(event);
 			});
 				
 			resultContainer.append(events);
 			
 			// 検索結果がない場合
-			if (this.eventList.length == 0) {
+			if ( eventList.length == 0) {
 				var noresult = $('<p>').attr('id','noreslut').text('検索結果がありませんでした');
 				events.append(noresult);
 				noresult.fadeIn();
 			};
 
 			// AutoLink
-			$(".content").autolink();
+			$(".content").autolink ? $(".content").autolink() : null;
 
 			// イベント詳細表示制御
 			$(".VCLevent").hover(
