@@ -321,7 +321,7 @@ jQuery( function($){
 				}
 			});
 
-			eventList.splice(index, 0, todayEvent);
+			//eventList.splice(index, 0, todayEvent);
 
 
 		},
