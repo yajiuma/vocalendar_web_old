@@ -187,9 +187,6 @@
 					<aside id="VCLcounter">
 						有志編集メンバー：<strong>35人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 					</aside>
-					
-					<!--<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
-				</div>
 					<div id="actionBTN"><a id="actionBTNon"></a></div>
 				</div>
 				<section id="bannerCNT" class="clearfix">
