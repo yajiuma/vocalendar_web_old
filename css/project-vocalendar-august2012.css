@@ -195,7 +195,7 @@ footer a {
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 214px; left: 15px; bottom: -20px;
+	width: 320px; left: -35px; bottom: -23px;
 	position: absolute; display: block;
 	visibility: visible;
 }
@@ -213,7 +213,8 @@ footer a {
 #glCNT {
 	position: absolute; display: block;
 	margin: 0; padding: 0;
-	right: 25px; top: 646px;
+	right: 50px; top: 646px;
+	/*right: 50px; top: 646px;*/
 	width: 250px; height: 124px;
 	background-image: url(../images/vocalendar-titlelogo-revb.png);
 	background-position: 0px -80px;
