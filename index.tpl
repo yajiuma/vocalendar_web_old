@@ -120,7 +120,7 @@
 		</header>
 		
 		<section id="googleCalCNT">
-			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="900" height="650" frameborder="0" scrolling="no"></iframe>
+			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="875" height="650" frameborder="0" scrolling="no"></iframe>
 		</section>
 		
 		<!-- 検索結果エリア //-->
@@ -139,7 +139,7 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/vocalendar-elrowaillust-gumi-r3.png" alt="GUMI@VOCALENDAR" />
+			<img src="images/illustrations/vocalendar-elrowa-miku5th.png" alt="Miku5th@VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>
@@ -147,48 +147,16 @@
 		
 		<!-- フッタセクション //-->
 		<footer>
-			<span class="gray"><span class="red">現在BETA運用につきカレンダーがいきなりバグる(!)・突然消失(!!)する</span>などの不具合が予想されます。ひとまず眺めるだけに留めていただけると安心で嬉しい感じです。 / 『VOCALENDAR』編集メンバー募集中！（特に過去の出来事をアーカイブできちゃう方）ご興味ある方は <a href="https://twitter.com/curioustander/" target="_blank">@curioustander</a> (twitter) までご連絡ください！ / 当サイト『VOCALENDAR』に掲載されている情報は個人利用の範囲でご自由にお使いいただいて結構ですが、商用利用はご遠慮ください。 / イラストはイラストレーターさんの大切な作品です。無断使用・転載などはくれぐれもおやめください。</span> / 当サイトで使用しているイラストはピアプロ・キャラクター・ライセンスに基いてクリプトン・フューチャー・メディア株式会社のキャラクター「巡音ルカ」を描いたものです。 / VOCALOIDならびにボーカロイドはヤマハ株式会社の登録商標です。 / 『MEIKO』『KAITO』『初音ミク』『鏡音リン』『鏡音レン』『巡音ルカ』はクリプトン・フューチャー・メディア株式会社の著作物です。 / 『歌愛ユキ』『氷山キヨテル』『SF-A2 開発コード miki』『猫村いろは』『結月ゆかり』は、株式会社AHSの登録商標です。 / 『Megpoid』『がくっぽいど』『Lily』『CUL』は株式会社インターネットの登録商標です。 / その他の製品・商品名は各社の商標または登録商標です。 / &copy; 2012 VOCALENDAR. Design by curioustander (a.k.a. yajiuma). Official illustration by ELrowa.
+			<span class="gray"><span class="red">現在BETA運用につきカレンダーがいきなりバグる(!)・突然消失(!!)する</span>などの不具合が予想されます。ひとまず眺めるだけに留めていただけると安心で嬉しい感じです。 / 『VOCALENDAR』編集メンバー募集中！（特に過去の出来事をアーカイブできちゃう方）ご興味ある方は <a href="https://twitter.com/curioustander/" target="_blank">@curioustander</a> (twitter) までご連絡ください！ / 当サイト『VOCALENDAR』に掲載されている情報は個人利用の範囲でご自由にお使いいただいて結構ですが、商用利用はご遠慮ください。 / イラストはイラストレーターさんの大切な作品です。無断使用・転載などはくれぐれもおやめください。</span> / 当サイトで使用しているイラストは<!--ピアプロ・キャラクター・ライセンスに基いて//-->各社のキャラクターライセンスに基いてクリプトン・フューチャー・メディア株式会社のキャラクター『初音ミク』、株式会社インターネットのキャラクター『Megpoid』、株式会社AHSのキャラクター『SF-A2 開発コード miki』を描いたものです。 / VOCALOIDならびにボーカロイドはヤマハ株式会社の登録商標です。 / 『MEIKO』『KAITO』『初音ミク』『鏡音リン』『鏡音レン』『巡音ルカ』はクリプトン・フューチャー・メディア株式会社の著作物です。 / 『歌愛ユキ』『氷山キヨテル』『SF-A2 開発コード miki』『猫村いろは』『結月ゆかり』は、株式会社AHSの登録商標です。 / 『Megpoid』『がくっぽいど』『Lily』『CUL』は株式会社インターネットの登録商標です。 / その他の製品・商品名は各社の商標または登録商標です。 / &copy; 2012 VOCALENDAR. Design by curioustander (a.k.a. yajiuma). Official illustration by ELrowa.
 		</footer>
 		
 	</div><!-- EOD:#vocalendarCNT //-->
-		
-		<!-- ナビゲーション //-->
-		<aside id="VCLnavi">
-			<div id="VCLnaviCNT">
-				<div id="VCLnaviContainer">
-					<aside id="VCLnaviLogo"></aside>
-					<section id="VCLstatus">
-						<!-- Twitterボタン //-->
-						<aside id="VCLtweetBtn">
-							<a href="https://twitter.com/share" class="twitter-share-button" data-text="ボカロ関連イベントの共有カレンダー【 VOCALENDAR | ボカレンダー 】" data-hashtags="vocalendar" data-url="http://vocalendar.jp/" data-related="vocalendar">Tweet</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-						</aside>
-						<aside id="VCLlikeBtn">
-							<div class="fb-like" data-href="http://vocalendar.jp/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
-							<!--<a href="https://twitter.com/VOCALENDAR" class="follow-button" data-show-count="false" data-lang="ja" target="_blank"><span class="bold">@VOCALENDAR</span>をフォロー</a>//-->
-						</aside>
-						<aside id="VCLglpusBtn">
-							<g:plusone size="medium" href="http://vocalendar.jp/"></g:plusone>
-						</aside>
-					</section><!-- EOD:#VCLstatus //-->
-					
-					<!-- 更新状況 //-->
-					<aside id="VCLcounter">
-						有志編集メンバー：<strong>36人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
-					</aside>
-					
-					<div id="actionBTN"><a id="actionBTNon"></a></div>
-				</div>
-				<section id="bannerCNT" class="clearfix">
-					<a href="http://bit.ly/vcl90005" target="_blank"><img src="images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
-					<img src="images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />
-				</section>
-			</div>
-		</aside>
-		
-		
-	<!-- VOCALENDAR JS読み込み //-->
-	<script src="js/vocalendar.js"></script>
+
+<!-- フッタ読み込み //-->
+<?php include "modules/footer.tpl"; ?>
+
+<!-- VOCALENDAR JS読み込み //-->
+<script src="js/vocalendar.js"></script>
 	
 </body>
 </html>
