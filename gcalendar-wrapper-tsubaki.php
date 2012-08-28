@@ -144,6 +144,7 @@ td.st-bg-today { background-color:inherit; }
 .t2-embed { margin: 0px; }
 .t1-embed { margin: 0px; }
 .rb-n { -webkit-border-radius: 0px; } /*終日イベント*/
+.view-container { overflow:visible !important; }
 
 /*ボタン*/
 .bubble-closebutton,
