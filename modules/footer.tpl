@@ -27,7 +27,8 @@
 		</div>
 		<section id="bannerCNT" class="clearfix">
 			<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
-			<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />
+			<a href="http://bit.ly/vcl90006" target="_blank"><img src="/images/banners/vocalendar-banner-nicomiku5th.jpg" alt="niconico|初音ミク5th.Birthdayニコニコ夏のミク祭り!!2012" style="margin-top:19px;" /></a>
+			<!--<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />//-->
 		</section>
 	</div>
 </aside>
