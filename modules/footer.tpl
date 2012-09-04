@@ -23,9 +23,10 @@
 				有志編集メンバー：<strong>36人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
-			<div id="actionBTN"><a id="actionBTNon"></a></div>
+			<!--<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
 		</div>
-		<section id="bannerCNT" class="clearfix">
+		<!-- バナー部分 //-->
+		<section id="bannerCNT" class="clearfix noad">
 			<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
 			<a href="http://bit.ly/vcl90006" target="_blank"><img src="/images/banners/vocalendar-banner-nicomiku5th.jpg" alt="niconico|初音ミク5th.Birthdayニコニコ夏のミク祭り!!2012" style="margin-top:19px;" /></a>
 			<!--<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />//-->
