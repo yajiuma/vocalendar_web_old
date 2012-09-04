@@ -292,6 +292,9 @@ footer a {
 	box-shadow: 0px 0px 5px gray;
 	float: left;
 }
+#bannerCNT.noad {
+	display: none;
+}
 
 
 #VCLstatus {
