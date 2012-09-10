@@ -40,6 +40,8 @@
   <script src="/js/jquery.gcal_flow.js"></script>
   <script src="/js/jquery.li-scroller.1.0.js"></script>
   
+  <script type="text/javascript" src="/js/vocalendar-detail.js"></script>
+
   <!-- Add fancyBox -->
   <link rel="stylesheet" href="/js/fancybox/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
   <script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js?v=2.0.6"></script>
@@ -103,6 +105,32 @@
     </header>
   </div>
 
+  <section id="VS_detailContainer" class="clearfix" style="display: block; ">
+    <h2 id="VCLDetailTitle">イベント詳細</h2>
+    <article id="EventDetail">
+      <article class="VCLevent" id="datepanel">
+        <section class="body">
+          <h1 class="title"></h1>
+          <div class="start clearfix">
+            <p class="date"></p>
+            <p class="time"></p>
+          </div>
+          <div class="end clearfix">
+            <p class="date"></p>
+            <p class="time"></p>
+          </div>
+          <p class="where"></p>
+        </section>
+        <aside class="badge">
+          <p class="month"></p>
+          <p class="day"></p>
+          <p class="dow"></p>
+        </aside>
+        <p class="content" >
+        </p>
+      </article>
+    </article>
+  </section>
 
 <!-- フッタ //-->
 <aside id="VCLnavi">
