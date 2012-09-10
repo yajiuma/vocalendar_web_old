@@ -33,7 +33,7 @@
 	.VCLsmp .gcf-item-title { margin:0; padding:0; line-height:125%; color:#006D4E; font-size: 100%; }
 	.VCLsmp .gcf-item-description { margin:10px 0 0; padding:0; line-height:135%; font-size:90%; color:#333333; }
 	.VCLsmp .gcf-item-description a { color:#41A587; }
-	h3 { background-image:url(/images/vocalendar-smp-title.png); -webkit-background-size:150px 12px; -o-background-size:150px 12px; text-indent:-9999px; background-repeat:no-repeat; background-position:left center;}
+	h3 { background-image:url(/images/vocalendar-smp-title.png); -webkit-background-size: 150px 12px; -o-background-size: 150px 12px; background-size: 150px 12px; text-indent:-9999px; background-repeat:no-repeat; background-position:left center;}
 	footer {
 		border-top: 1px solid white;
 		margin:0; padding: 10px;
