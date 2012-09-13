@@ -28,7 +28,8 @@ header p {
 }
 header p.lead {
   font-weight: bold;
-  color: #006D4E;
+  /*color: #006D4E;*/
+  color: #444;
 }
 .VCLsmp .gcf-item-block {
   padding: 10px 10px;

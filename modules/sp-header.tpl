@@ -9,7 +9,7 @@
 
 <header>
 <p class="lead">VOCALENDARはボーカロイド関連イベントの予定日を網羅したカレンダーです。同人即売会やライブの開催日、CDや雑誌の発売日、TVやラジオ番組の予定まで。スマホ版では直近の予定をご覧になれます。</p>
-<p>掲載の内容は完全ではなく、公式の最新情報とは異なる場合があります。物販やイベント情報などは<span class="red">必ず各自で</span> 公式の情報を調べて内容をお確かめください。</p>
+<p style="font-size:12px;margin-bottom: 1em;">イベント情報は<span class="red">必ず各自で</span>公式情報をご確認ください。</p>
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="ボカロ関連イベントの共有カレンダー【 VOCALENDAR / ボカレンダー 】" data-hashtags="vocalendar" data-url="http://vocalendar.jp/" data-related="vocalendar">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <!-- 告知エリア
