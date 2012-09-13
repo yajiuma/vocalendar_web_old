@@ -160,6 +160,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	box-shadow: 0px 0px 1px black inset;
 }
 
+/*** 詳細表示 ***/
+#VS_detailContainer {
+	margin: 1em 20%;
+	display: relative;
+}
+
+#VS_detailContainer .VCLevent {
+	width: 80%;
+}
+#VS_detailContainer .content {
+	display: inherit;
+	right: 0;
+	left: 0;
+	width: auto;
+}
+
 /*** 新カレンダコンテナ ***/
 #googleCalCNT {
 	position: relative; display: block;
