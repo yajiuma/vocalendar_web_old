@@ -105,53 +105,63 @@
 		
 		<ul id="galleryCNT" class="clearfix">
 			<li>
-				<h2><img src="/images/vocalendar-gallery-001str.png" alt="VOCALENDAR regular illustration. / Illustration by ELrowa." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-001pict.jpg" title="VOCALENDAR regular illustration"><img class="thumbnail" src="/images/vocalendar-gallery-001.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-001str.png" alt="VOCALENDAR regular illustration. / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-001pict.jpg" title="VOCALENDAR regular illustration"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-001.jpg" alt="" /></a>
 				<p class="credit">Illustration by ELrowa.</p>
 			</li>
 			<li>
-				<h2><img src="/images/vocalendar-gallery-002str.png" alt="VOCALENDAR cover illustration for April 2012 / Illustration by ELrowa." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-002pict.jpg" title="VOCALENDAR cover illustration for April 2012"><img class="thumbnail" src="/images/vocalendar-gallery-002.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-002str.png" alt="VOCALENDAR cover illustration for April 2012 / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-002pict.jpg" title="VOCALENDAR cover illustration for April 2012"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-002.jpg" alt="" /></a>
 				<p class="credit">Illustration by ELrowa.</p>
 			</li>
 			<li>
-				<h2><img src="/images/vocalendar-gallery-003str.png" alt="VOCALENDAR cover illustration for May 2012 / Illustration by ELrowa." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-003pict.jpg" title="VOCALENDAR cover illustration for May 2012"><img class="thumbnail" src="/images/vocalendar-gallery-003.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-003str.png" alt="VOCALENDAR cover illustration for May 2012 / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-003pict.jpg" title="VOCALENDAR cover illustration for May 2012"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-003.jpg" alt="" /></a>
 				<p class="credit">Illustration by ELrowa.</p>
 			</li>
 			<li class="ftc">
-				<h2><img src="/images/vocalendar-gallery-004str.png" alt="VOCALENDAR cover illustration for June 2012 / Illustration by ELrowa." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-004pict.jpg" title="VOCALENDAR cover illustration for June 2012"><img class="thumbnail" src="/images/vocalendar-gallery-004.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-004str.png" alt="VOCALENDAR cover illustration for June 2012 / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-004pict.jpg" title="VOCALENDAR cover illustration for June 2012"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-004.jpg" alt="" /></a>
 				<p class="credit">Illustration by ELrowa.</p>
 			</li>
 			<li>
-				<h2><img src="/images/vocalendar-gallery-005str.png" alt="VOCALENDAR cover illustration for July 2012 / Illustration by ELrowa." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-005pict.jpg" title="VOCALENDAR cover illustration for July 2012"><img class="thumbnail" src="/images/vocalendar-gallery-005.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-005str.png" alt="VOCALENDAR cover illustration for July 2012 / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-005pict.jpg" title="VOCALENDAR cover illustration for July 2012"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-005.jpg" alt="" /></a>
 				<p class="credit">Illustration by ELrowa.</p>
 			</li>
 			<li>
-				<h2><img src="/images/vocalendar-gallery-501str.png" alt="VOCALENDAR AD / (c) 2012 VOCALENDAR." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-501pict.jpg" title="VOCALENDAR AD for VOCALO CRITIQUE vol.04"><img class="thumbnail" src="/images/vocalendar-gallery-501.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-006str.png" alt="VOCALENDAR cover illustration for August 2012 / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-006pict.jpg" title="VOCALENDAR cover illustration for August 2012"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-006.jpg" alt="" /></a>
+				<p class="credit">Illustration by ELrowa.</p>
+			</li>
+			<li>
+				<h2><img src="/images/gallery/vocalendar-gallery-007str.png" alt="VOCALENDAR cover illustration for Miku's 5th anniversary / Illustration by ELrowa." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-007pict.jpg" title="VOCALENDAR cover illustration for Miku's 5th anniversary."><img class="thumbnail" src="/images/gallery/vocalendar-gallery-007.jpg" alt="" /></a>
+				<p class="credit">Illustration by ELrowa.</p>
+			</li>
+			<li class="ftc">
+				<h2><img src="/images/gallery/vocalendar-gallery-501str.png" alt="VOCALENDAR AD / (c) 2012 VOCALENDAR." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-501pict.jpg" title="VOCALENDAR AD for VOCALO CRITIQUE vol.04"><img class="thumbnail" src="/images/gallery/vocalendar-gallery-501.jpg" alt="" /></a>
 				<p class="credit">Design by curioustander (yajiuma).<br />Official illustration by ELrowa.<br />AD copywriting by cicken_new.</p>
 			</li>
 			<li>
-				<h2><img src="/images/vocalendar-gallery-901str.png" alt="VOCALENDAR HP 1st gen. / (c) 2012 VOCALENDAR." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-901pict.jpg" title="VOCALENDAR HP 1st gen."><img class="thumbnail" src="/images/vocalendar-gallery-901.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-901str.png" alt="VOCALENDAR HP 1st gen. / (c) 2012 VOCALENDAR." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-901pict.jpg" title="VOCALENDAR HP 1st gen."><img class="thumbnail" src="/images/gallery/vocalendar-gallery-901.jpg" alt="" /></a>
 				<p class="credit">Design by curioustander (yajiuma).</p>
 			</li>
+			<li>
+				<h2><img src="/images/gallery/vocalendar-gallery-902str.png" alt="VOCALENDAR HP 2nd gen. / (c) 2012 VOCALENDAR." /></h2>
+				<a class="zoom" href="/images/gallery/ocalendar-gallery-902pict.jpg" title="VOCALENDAR HP 2nd gen."><img class="thumbnail" src="/images/gallery/vocalendar-gallery-902.jpg" alt="" /></a>
+				<p class="credit">Design by curioustander (yajiuma).<br />Official illustration by ELrowa.</p>
+			</li>
+			<li>
+				<h2><img src="/images/gallery/vocalendar-gallery-903str.png" alt="VOCALENDAR HP 3rd gen. / (c) 2012 VOCALENDAR." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-903pict.jpg" title="VOCALENDAR HP 3rd gen."><img class="thumbnail" src="/images/gallery/vocalendar-gallery-903.jpg" alt="" /></a>
+				<p class="credit">Design by curioustander (yajiuma).<br />Official illustration by ELrowa.</p>
+			</li>
 			<li class="ftc">
-				<h2><img src="/images/vocalendar-gallery-902str.png" alt="VOCALENDAR HP 2nd gen. / (c) 2012 VOCALENDAR." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-902pict.jpg" title="VOCALENDAR HP 2nd gen."><img class="thumbnail" src="/images/vocalendar-gallery-902.jpg" alt="" /></a>
-				<p class="credit">Design by curioustander (yajiuma).<br />Official illustration by ELrowa.</p>
-			</li>
-			<li>
-				<h2><img src="/images/vocalendar-gallery-903str.png" alt="VOCALENDAR HP 3rd gen. / (c) 2012 VOCALENDAR." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-903pict.jpg" title="VOCALENDAR HP 3rd gen."><img class="thumbnail" src="/images/vocalendar-gallery-903.jpg" alt="" /></a>
-				<p class="credit">Design by curioustander (yajiuma).<br />Official illustration by ELrowa.</p>
-			</li>
-			<li>
-				<h2><img src="/images/vocalendar-gallery-904str.png" alt="VOCALENDAR HP 4th gen. / (c) 2012 VOCALENDAR." /></h2>
-				<a class="zoom" href="/images/vocalendar-gallery-904pict.jpg" title="VOCALENDAR HP 4th gen."><img class="thumbnail" src="/images/vocalendar-gallery-904.jpg" alt="" /></a>
+				<h2><img src="/images/gallery/vocalendar-gallery-904str.png" alt="VOCALENDAR HP 4th gen. / (c) 2012 VOCALENDAR." /></h2>
+				<a class="zoom" href="/images/gallery/vocalendar-gallery-904pict.jpg" title="VOCALENDAR HP 4th gen."><img class="thumbnail" src="/images/gallery/vocalendar-gallery-904.jpg" alt="" /></a>
 				<p class="credit">Design by curioustander (yajiuma).<br />Official illustration by ELrowa.</p>
 			</li>
 		</ul>
