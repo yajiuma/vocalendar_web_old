@@ -120,7 +120,7 @@
 		</header>
 		
 		<section id="googleCalCNT">
-			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="875" height="650" frameborder="0" scrolling="no"></iframe>
+			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="900" height="650" frameborder="0" scrolling="no"></iframe>
 		</section>
 		
 		<!-- 検索結果エリア //-->
@@ -139,7 +139,7 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/illustrations/vocalendar-elrowa-miku5th.png" alt="Miku5th@VOCALENDAR" />
+			<img src="images/illustrations/vocalendar-elrowa-kaito+iroha.png" alt="Kaito and Iroha @VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>
@@ -147,7 +147,7 @@
 		
 		<!-- フッタセクション //-->
 		<footer>
-			<span class="gray"><span class="red">現在BETA運用につきカレンダーがいきなりバグる(!)・突然消失(!!)する</span>などの不具合が予想されます。ひとまず眺めるだけに留めていただけると安心で嬉しい感じです。 / 『VOCALENDAR』編集メンバー募集中！（特に過去の出来事をアーカイブできちゃう方）ご興味ある方は <a href="https://twitter.com/curioustander/" target="_blank">@curioustander</a> (twitter) までご連絡ください！ / 当サイト『VOCALENDAR』に掲載されている情報は個人利用の範囲でご自由にお使いいただいて結構ですが、商用利用はご遠慮ください。 / イラストはイラストレーターさんの大切な作品です。無断使用・転載などはくれぐれもおやめください。</span> / 当サイトで使用しているイラストは<!--ピアプロ・キャラクター・ライセンスに基いて//-->各社のキャラクターライセンスに基いてクリプトン・フューチャー・メディア株式会社のキャラクター『初音ミク』、株式会社インターネットのキャラクター『Megpoid』、株式会社AHSのキャラクター『SF-A2 開発コード miki』を描いたものです。 / VOCALOIDならびにボーカロイドはヤマハ株式会社の登録商標です。 / 『MEIKO』『KAITO』『初音ミク』『鏡音リン』『鏡音レン』『巡音ルカ』はクリプトン・フューチャー・メディア株式会社の著作物です。 / 『歌愛ユキ』『氷山キヨテル』『SF-A2 開発コード miki』『猫村いろは』『結月ゆかり』は、株式会社AHSの登録商標です。 / 『Megpoid』『がくっぽいど』『Lily』『CUL』は株式会社インターネットの登録商標です。 / その他の製品・商品名は各社の商標または登録商標です。 / &copy; 2012 VOCALENDAR. Design by curioustander (a.k.a. yajiuma). Official illustration by ELrowa.
+			<span class="gray"><span class="red">現在BETA運用につきカレンダーがいきなりバグる(!)・突然消失(!!)する</span>などの不具合が予想されます。ひとまず眺めるだけに留めていただけると安心で嬉しい感じです。 / 『VOCALENDAR』編集メンバー募集中！（特に過去の出来事をアーカイブできちゃう方）ご興味ある方は <a href="https://twitter.com/curioustander/" target="_blank">@curioustander</a> (twitter) までご連絡ください！ / 当サイト『VOCALENDAR』に掲載されている情報は個人利用の範囲でご自由にお使いいただいて結構ですが、商用利用はご遠慮ください。 / イラストはイラストレーターさんの大切な作品です。無断使用・転載などはくれぐれもおやめください。</span> / 当サイトで使用しているイラストは<!--ピアプロ・キャラクター・ライセンスに基いて//-->各社のキャラクターライセンスに基いてクリプトン・フューチャー・メディア株式会社のキャラクター『KAITO』、株式会社AHSのキャラクター『猫村いろは』を描いたものです。 / VOCALOIDならびにボーカロイドはヤマハ株式会社の登録商標です。 / 『MEIKO』『KAITO』『初音ミク』『鏡音リン』『鏡音レン』『巡音ルカ』はクリプトン・フューチャー・メディア株式会社の著作物です。 / 『歌愛ユキ』『氷山キヨテル』『SF-A2 開発コード miki』『猫村いろは』『結月ゆかり』は、株式会社AHSの登録商標です。 / 『Megpoid』『がくっぽいど』『Lily』『CUL』は株式会社インターネットの登録商標です。 / その他の製品・商品名は各社の商標または登録商標です。 / &copy; 2012 VOCALENDAR. Design by curioustander (a.k.a. yajiuma). Official illustration by ELrowa.
 		</footer>
 		
 	</div><!-- EOD:#vocalendarCNT //-->
