@@ -160,21 +160,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	box-shadow: 0px 0px 1px black inset;
 }
 
-/*** 詳細表示 ***/
-#VS_detailContainer {
-	margin: 1em 20%;
-	display: relative;
-}
-
-#VS_detailContainer .VCLevent {
-	width: 80%;
-}
-#VS_detailContainer .content {
-	display: inherit;
-	right: 0;
-	left: 0;
-	width: auto;
-}
 
 /*** 新カレンダコンテナ ***/
 #googleCalCNT {
@@ -274,6 +259,8 @@ footer a {
 	background-color: #d0d0d0;
 	border-bottom: 1px solid #b0b0b0;
 	box-shadow: 0px -5px 0px rgba(0,0,0,0.6);
+}
+#VCLnavi.top {
 }
 #VCLnaviCNT {
 	position: relative; display: block;
@@ -822,4 +809,30 @@ ul.newsticker .gcf-item-date-block {
 	left: 0px; top: 355px;
 	font-size: 12px; font-weight: normal; line-height: 135%;
 	color: #999999; text-shadow: 0px 1px 0px white;
+}
+
+/*** 詳細ページ ***/
+#VCLsearchDetailTitle {
+	margin: 0 0 30px;
+	padding: 0 0 0 0;
+	font-size: 32px;
+	font-weight: normal;
+	color: #666;
+	line-height: 100%;
+	text-shadow: 0px 1px 0px white;
+}
+#VS_detailContainer {
+	margin: 0 20% 0;
+	display: relative;
+}
+#VS_detailContainer .VCLevent {
+	width: 80%;
+	margin: 0;
+}
+#VS_detailContainer .content {
+	display: inherit;
+	margin: 0 0 100px;
+	right: 0;
+	left: 0;
+	width: auto;
 }
