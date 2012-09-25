@@ -25,7 +25,6 @@ jQuery(function($) {
     }
 
     function fillDetailData(data, status, xhr) {
-        console.debug(data);
         var container = $("#EventDetail");
         if (!data.entry) return false;
         var entry = data.entry;
