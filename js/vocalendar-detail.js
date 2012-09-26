@@ -44,10 +44,10 @@ jQuery(function($) {
         container.find(".body .start .date").text(start.getFullYear()+"年"+(start.getMonth()+1)+"月"+start.getDate()+"日");
         if (!is_allday)
             container.find(".body .start .time").text(start.getHours()+"時"+start.getMinutes()+"分");
-        var end = parse_date(entry.gd$when[0].startTime);
-        container.find(".body .end .date").text(start.getFullYear()+"年"+(start.getMonth()+1)+"月"+start.getDate()+"日");
+        var end = parse_date(entry.gd$when[0].endTime);
+        container.find(".body .end .date").text(end.getFullYear()+"年"+(end.getMonth()+1)+"月"+end.getDate()+"日");
         if (!is_allday)
-            container.find(".body .end .time").text(start.getHours()+"時"+start.getMinutes()+"分");
+            container.find(".body .end .time").text(end.getHours()+"時"+end.getMinutes()+"分");
 
         container.find(".badge .month").html(start.getFullYear()+"年/"+(start.getMonth()+1)+"月");
         container.find(".badge .day").html(start.getDate());
