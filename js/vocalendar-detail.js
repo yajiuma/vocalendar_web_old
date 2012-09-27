@@ -56,7 +56,11 @@ jQuery(function($) {
         if (entry.gd$where[0].valueString)
             container.find(".body .where").text(entry.gd$where[0].valueString);
         container.find(".content").html($("<span />").text(entry.content.$t).html().replace(/\n/g, "<br>"));
-        
+
+        if ($.fn.autolink) {
+            container.find(".body .where").autolink();
+            container.find(".content").autolink();
+        }
     }
 
     function loadDetail(feedurl) {
