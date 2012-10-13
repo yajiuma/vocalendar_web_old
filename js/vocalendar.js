@@ -128,7 +128,7 @@ $(function() {
 	
 	// IE8アラート
 	//$("body").iealert();
-	 $("form.VS_searchCondition").jqTransform();
+	 $("#VS_searchCondition").jqTransform();
 	
 	// activity-indicator
 	$('#VCLsearchIndicator').activity({segments: 10, steps: 10, opacity: 0.3, width: 5, space: 5, length: 7, color: '#0b0b0b', speed: 1.2});
