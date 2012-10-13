@@ -41,8 +41,7 @@ $(function() {
 	
 	$(window).bind("resize", resizeContainer);
 	resizeContainer();
-	
-	
+
 	// 非同期ローディング
 	$(".zoom").fancybox({
 		openEffect	: 'fade',
@@ -80,7 +79,7 @@ $(function() {
 			$(this).animate({opacity:0},1000);
 		}
 	);
-	
+
 	$("h1 a").hover(
 		function(){
 			$(this).stop();
@@ -129,9 +128,7 @@ $(function() {
 	
 	// IE8アラート
 	//$("body").iealert();
-	
-	// dropkick: プルダウンカスタマイズ用
-	$('.dropkick').dropkick();
+	 $("form.VS_searchCondition").jqTransform();
 	
 	// activity-indicator
 	$('#VCLsearchIndicator').activity({segments: 10, steps: 10, opacity: 0.3, width: 5, space: 5, length: 7, color: '#0b0b0b', speed: 1.2});

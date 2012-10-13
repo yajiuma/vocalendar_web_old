@@ -39,7 +39,7 @@
 	<script>google.load("jqueryui", "1.8.16");</script>
 	<script src="js/jquery.easing.js"></script>
 	<script src="js/jquery.gcal_flow.js"></script>
-	<script src="js/jquery.dropkick-1.0.0.js"></script>
+	<script src="js/jqtransformplugin/jquery.jqtransform.js"></script>
 	<script src="js/vocalendar-search.js"></script>
 	<script src="js/jquery.activity-indicator-1.0.0.js"></script>
 	<script src="js/jquery.autolink.js"></script>
