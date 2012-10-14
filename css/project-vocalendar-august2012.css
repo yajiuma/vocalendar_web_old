@@ -196,7 +196,8 @@ footer a {
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 260px; left: 0px; bottom: -20px;
+	width: 260px;
+	left: 0px; bottom: -20px;
 	position: absolute; display: block;
 	visibility: visible;
 }
@@ -209,7 +210,6 @@ footer a {
 #elrowaCNT .credit a {
 	color: #666666; text-decoration: underline;
 }
-
 /*** GL（グランドレベル） ***/
 #glCNT {
 	position: absolute; display: block;
@@ -232,6 +232,11 @@ footer a {
 	font-weight: bold; color: #ff6666;
 }
 
+/* イレギュラー */
+#elrowaCNT img { width: 310px; left: -35px; bottom: -10px; }
+#elrowaCNT .credit { left: -10px; }
+#glCNT { width: 275px; }
+#glCNTnotice { left: 15px; }
 
 #bodyContainer {
 	position: relative;

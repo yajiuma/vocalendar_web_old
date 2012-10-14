@@ -120,7 +120,8 @@
 		</header>
 		
 		<section id="googleCalCNT">
-			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="900" height="650" frameborder="0" scrolling="no"></iframe>
+		<!--- width 900 to 850 //-->
+			<iframe class="vcl01" src="/gcalendar-wrapper-tsubaki.php?src=0mprpb041vjq02lk80vtu6ajgo%40group.calendar.google.com&amp;color=%230F4B38&amp;src=5fsoru1dfaga56mcleu5mp76kk%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showCalendars=1&amp;showTz=0&amp;showPrint=0&amp;height=650&amp;wkst=2&amp;bgcolor=%23FFFFFF" style=" border-width:0 " width="875" height="650" frameborder="0" scrolling="no"></iframe>
 		</section>
 		
 		<!-- 検索結果エリア //-->
@@ -139,7 +140,7 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/illustrations/vocalendar-elrowa-kaito+iroha.png" alt="Kaito and Iroha @VOCALENDAR" />
+			<img src="images/illustrations/vocalendar-elrowa-teto.png" alt="Kasane Teto @VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>
