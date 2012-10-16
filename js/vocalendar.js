@@ -8,7 +8,7 @@ var vcount2 = 0;
 
 // 初期化
 $(function() {
-	
+
 	// IE PNG問題
 	if(navigator.userAgent.indexOf("MSIE") != -1) {
 	$('img').each(function() {
@@ -21,7 +21,7 @@ $(function() {
 	}
 	});
 	}
-	
+
 	$.ajax({
 		dataType : "jsonp",
 		url: 'https://www.google.com/calendar/feeds/'+calid1+'/public/full?alt=json-in-script&max-results=1',
@@ -38,7 +38,7 @@ $(function() {
 			});
 		}
 	});
-	
+
 	$(window).bind("resize", resizeContainer);
 	resizeContainer();
 
@@ -52,23 +52,23 @@ $(function() {
 			}
 		}
 	});
-	
+
 	// デフォルトカレンダーを起動時に表示
 	$(window).load(function(){
 		//$("#VCLcontainer iframe." + visibleCal ).fadeIn(250);
 		//$("#VCLcounter").fadeIn(500);
 	});
-	
+
 	// ウィンドウリサイズハンドラ
 	//$(window).resize(function() {
 	//	fitStatusBar();
 	//});
-	
+
 	// ウィンドウスクロールハンドラ
 	//$(window).scroll(function(){
 	//	fitStatusBar();
 	//});
-	
+
 	$("nav ul li a").hover(
 		function(){
 			$(this).stop();
@@ -90,7 +90,7 @@ $(function() {
 			$(this).animate({opacity:0},1000);
 		}
 	);
-	
+
 	// バナーエリア
 	$("#actionBTN").toggle(
 		function() {
@@ -125,14 +125,14 @@ $(function() {
 			$(this).animate({opacity:0},1000);
 		}
 	);
-	
+
 	// IE8アラート
 	//$("body").iealert();
-	 $("#VS_searchCondition").jqTransform();
-	
+	 $("#VS_conditionContainer").jqTransform();
+
 	// activity-indicator
 	$('#VCLsearchIndicator').activity({segments: 10, steps: 10, opacity: 0.3, width: 5, space: 5, length: 7, color: '#0b0b0b', speed: 1.2});
-		
+
 }); // 初期化終了
 
 
