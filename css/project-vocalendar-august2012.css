@@ -299,7 +299,10 @@ footer a {
 	box-shadow: 0px 0px 5px gray;
 	float: left;
 }
-#bannerCNT.noad {
+#VCLnavi.noad #bannerCNT {
+	display: none;
+}
+#VCLnavi.noad #actionBTN {
 	display: none;
 }
 
@@ -339,7 +342,7 @@ text-decoration: none;
 #VCLglpusBtn {
 	position: absolute; display: block;
 	font-size: 10px;
-	left: 220px; top: 6px;
+	left: 235px; top: 6px;
 	height: 20px; }
 #VCLglpusBtn a {
 display: block; position: relative;
@@ -358,7 +361,7 @@ text-decoration: none;
 #VCLlikeBtn {
 	position: absolute; display: block;
 	font-size: 10px;
-	left: 110px; top: 6px;
+	left: 130px; top: 6px;
 	height: 20px; }
 #VCLlikeBtn a {
 display: block; position: relative;
@@ -377,7 +380,7 @@ text-decoration: none;
 #VCLcounter {
 	position: absolute; display: block;
 	white-space: nowrap;
-	left: 460px; top: 5px;
+	left: 490px; top: 5px;
 	margin: 0; padding: 4px 6px;
 	font-size: 12px; color: #666666;
 	line-height: 100%;
