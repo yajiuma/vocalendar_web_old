@@ -20,7 +20,7 @@
 			
 			<!-- 更新状況 //-->
 			<aside id="VCLcounter">
-				有志編集メンバー：<strong>36人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
+				有志編集メンバー：<strong>40人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
 			<!--<div id="actionBTN"><a id="actionBTNon"></a></div>//-->
