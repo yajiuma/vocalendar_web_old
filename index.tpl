@@ -131,20 +131,32 @@
 			<div id="VCLsearchIndicator">検索中</div>
 		</section>
 		
-		<!-- GL //-->
-		<aside id="glCNT">
-			<section id="glCNTnotice">
-				掲載の内容は完全ではありません。公式の最新情報とは異なる場合があります。物販やイベント情報などは<strong>必ず各自で</strong>公式の情報を調べて内容をお確かめください。
-			</section>
-		</aside>
-		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/illustrations/vocalendar-elrowa-teto.png" alt="Kasane Teto @VOCALENDAR" />
+			<img src="images/illustrations/vocalendar-elrowa-regmiku.png" alt="Hatsune Miku @VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>
 		</aside>
+		
+		<!-- GL //-->
+		<div id="glOS">
+		<aside id="glCNT">
+			<section id="glCNTabout">
+				VOCALENDAR（ボカレンダー）はボーカロイド関連イベントの予定日を集めたカレンダーです。
+			</section>
+			<section id="glCNTnotice">
+				掲載の内容は完全ではありません。公式の最新情報とは異なる場合があります。物販やイベント情報などは<strong>必ず各自で公式の情報を調べて</strong>内容をお確かめください。
+			</section>
+			<section id="glCNTtwitterAbout">
+				twitterアカウントでは、開始4時間前にイベントタイトルを自動でお知らせ。これでどんなイベントも見逃さない！ぜひフォローしてお役立てくださいね。
+			</section>
+			<section id="glCNTtwitterBTN">
+			<a href="https://twitter.com/VOCALENDAR" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VOCALENDAR</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</section>
+		</aside>
+		</div>
 		
 		<!-- フッタセクション //-->
 		<footer>

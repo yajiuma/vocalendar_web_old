@@ -166,6 +166,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	position: relative; display: block;
 	margin: 32px auto 0; padding: 0;
 	width: 1150px;
+	z-index: 1;
 	background-color: transparent; }
 #googleCalCNT iframe {
 	position: relative; display: block;
@@ -192,18 +193,18 @@ footer a {
 #elrowaCNT {
 	position: absolute; display: block;
 	right: 25px; top: 0px;
-	width: 250px; height: 650px;
+	width: 250px; height: 475px;
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 260px;
-	left: 0px; bottom: -20px;
+	width: 350px;
+	right: -45px; bottom: -10px;
 	position: absolute; display: block;
 	visibility: visible;
 }
 #elrowaCNT .credit {
 	position: absolute; display: block;
-	left: 15px; top: 660px;
+	right: 0; bottom: 0;
 	font-size: 10px; font-weight: normal; line-height: 100%;
 	color: gray; text-shadow: 0px 1px 0px white;
 }
@@ -211,32 +212,52 @@ footer a {
 	color: #666666; text-decoration: underline;
 }
 /*** GL（グランドレベル） ***/
+#glOS {
+	position: absolute;
+	right: 25px; top: 0px;
+	width: 252px;
+	height: 770px;
+}
 #glCNT {
 	position: absolute; display: block;
-	margin: 0; padding: 0;
-	right: 25px; top: 646px;
-	width: 250px; height: 124px;
-	background-image: url(../images/vocalendar-titlelogo-revb.png);
-	background-position: 0px -80px;
-	background-repeat: no-repeat;
+	margin: 0; padding: 20px 20px 10px;
+	width: 210px;
+	bottom: 0; right: 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: rgba(255,255,255,0.5);
+}
+#glCNTabout {
+	position: relative; display: block;
+	margin: 0 0 10px; padding: 0;
+	font-size: 12px; color: #444444;
+	font-weight: bold;
+	line-height: 135%;
+	text-shadow: 0px 1px 0px white;
 }
 #glCNTnotice {
-	position: absolute; display: block;
-	margin: 0; padding: 0;
-	left: 10px; bottom: 0px;
-	width: 230px;
-	font-size: 12px; color: #776666; line-height: 150%;
+	position: relative; display: block;
+	margin: 0 0 10px; padding: 0 0 10px;
+	font-size: 11px; color: #776666; line-height: 140%;
 	text-shadow: 0px 1px 0px white;
+	border-bottom: 1px solid #cccccc;
+	box-shadow: 0px 1px 0px white;
 }
 #glCNTnotice strong {
 	font-weight: bold; color: #ff6666;
 }
+#glCNTtwitterAbout {
+	position: relative; display: block;
+	margin: 0 0 10px; padding: 0;
+	font-size: 11px; color: #776666; line-height: 140%;
+	text-shadow: 0px 1px 0px white;
+}
+#glCNTtwitterBTN {
+	width: 250px;
+	margin-left: -20px;
+	text-align: center;
+}
 
-/* イレギュラー */
-#elrowaCNT img { width: 310px; left: -35px; bottom: -10px; }
-#elrowaCNT .credit { left: -10px; }
-#glCNT { width: 275px; }
-#glCNTnotice { left: 15px; }
 
 #bodyContainer {
 	position: relative;
@@ -263,6 +284,7 @@ footer a {
 	background-color: #d0d0d0;
 	border-bottom: 1px solid #b0b0b0;
 	box-shadow: 0px -5px 0px rgba(0,0,0,0.6);
+	z-index: 2;
 }
 #VCLnavi.top {
 }
