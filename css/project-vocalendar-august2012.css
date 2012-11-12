@@ -166,12 +166,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	position: relative; display: block;
 	margin: 32px auto 0; padding: 0;
 	width: 1150px;
-	z-index: 1;
 	background-color: transparent; }
 #googleCalCNT iframe {
 	position: relative; display: block;
 	margin: 0; padding: 0;
 	box-shadow: 0px 1px 0px white;
+	z-index: 1;
 	background-color: transparent; }
 
 /*** 新フッタ ***/
