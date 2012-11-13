@@ -131,14 +131,6 @@
 			<div id="VCLsearchIndicator">検索中</div>
 		</section>
 		
-		<!-- 新エルロワエリア //-->
-		<aside id="elrowaCNT">
-			<img src="images/illustrations/vocalendar-elrowa-regmiku.png" alt="Hatsune Miku @VOCALENDAR" />
-			<section class="credit">
-				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
-			</section>
-		</aside>
-		
 		<!-- GL //-->
 		<div id="glOS">
 		<aside id="glCNT">
@@ -157,6 +149,14 @@
 			</section>
 		</aside>
 		</div>
+		
+		<!-- 新エルロワエリア //-->
+		<aside id="elrowaCNT">
+			<img src="images/illustrations/vocalendar-elrowa-regmiku.png" alt="Hatsune Miku @VOCALENDAR" />
+			<section class="credit">
+				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
+			</section>
+		</aside>
 		
 		<!-- フッタセクション //-->
 		<footer>
