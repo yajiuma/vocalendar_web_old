@@ -318,7 +318,7 @@ footer a {
 #bannerCNT img {
 	position: relative; display: block;
 	margin: 0; padding: 0;
-	box-shadow: 0px 0px 5px gray;
+	/*box-shadow: 0px 0px 5px gray;*/
 	float: left;
 }
 #VCLnavi.noad #bannerCNT {
@@ -364,7 +364,7 @@ text-decoration: none;
 #VCLglpusBtn {
 	position: absolute; display: block;
 	font-size: 10px;
-	left: 235px; top: 6px;
+	left: 245px; top: 6px;
 	height: 20px; }
 #VCLglpusBtn a {
 display: block; position: relative;
