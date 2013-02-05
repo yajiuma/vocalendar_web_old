@@ -1,5 +1,5 @@
 <!-- ナビゲーション //-->
-<aside id="VCLnavi" class="noad">
+<aside id="VCLnavi" class=""><!--noad//-->
 	<div id="VCLnaviCNT">
 		<div id="VCLnaviContainer">
 			<aside id="VCLnaviLogo"></aside>
@@ -20,16 +20,19 @@
 			
 			<!-- 更新状況 //-->
 			<aside id="VCLcounter">
-				有志編集メンバー：<strong>40人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
+				有志編集メンバー：<strong>39人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
 			<div id="actionBTN"><a id="actionBTNon"></a></div>
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">
-			<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
+			<a href="http://bit.ly/vcl90008" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-a.png" alt="" width="376" height="90" style="margin-right: 11px; margin-left: 193px;"></a><!--
+			<a href="http://bit.ly/vcl90009" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-b.png" alt="" width="376" height="90" style="margin-right: 11px;"></a>//-->
+			<a href="http://bit.ly/vcl90007" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-c.png" alt="" width="376" height="90"></a>
+			<!--<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
 			<a href="http://bit.ly/vcl90006" target="_blank"><img src="/images/banners/vocalendar-banner-nicomiku5th.jpg" alt="niconico|初音ミク5th.Birthdayニコニコ夏のミク祭り!!2012" style="margin-top:19px;" /></a>
-			<!--<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />//-->
+			<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />//-->
 		</section>
 	</div>
 </aside>
