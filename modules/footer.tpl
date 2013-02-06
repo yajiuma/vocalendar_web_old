@@ -27,8 +27,8 @@
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">
-			<a href="http://bit.ly/vcl90008" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-a.png" alt="" width="376" height="90" style="margin-right: 11px; margin-left: 193px;"></a><!--
-			<a href="http://bit.ly/vcl90009" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-b.png" alt="" width="376" height="90" style="margin-right: 11px;"></a>//-->
+			<a href="http://bit.ly/vcl90008" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-a.png" alt="" width="376" height="90" style="margin-right: 11px;"></a>
+			<a href="http://bit.ly/vcl90009" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-b.png" alt="" width="376" height="90" style="margin-right: 11px;"></a>
 			<a href="http://bit.ly/vcl90007" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2013-c.png" alt="" width="376" height="90"></a>
 			<!--<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
 			<a href="http://bit.ly/vcl90006" target="_blank"><img src="/images/banners/vocalendar-banner-nicomiku5th.jpg" alt="niconico|初音ミク5th.Birthdayニコニコ夏のミク祭り!!2012" style="margin-top:19px;" /></a>
