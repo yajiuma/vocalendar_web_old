@@ -1,5 +1,5 @@
 <!-- ナビゲーション //-->
-<aside id="VCLnavi"><!--noad//-->
+<aside id="VCLnavi" class=""><!-- noad //-->
 	<div id="VCLnaviCNT">
 		<div id="VCLnaviContainer">
 			<aside id="VCLnaviLogo"></aside>
@@ -20,15 +20,31 @@
 			
 			<!-- 更新状況 //-->
 			<aside id="VCLcounter">
-				有志編集メンバー：<strong>39人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
+				有志編集メンバー：<strong>40人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
 			<div id="actionBTN"><a id="actionBTNon"></a></div>
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">
-			<a href="http://bit.ly/vcl90013" target="_blank"><img src="/images/banners/vocalendar-banner-diva.jpg" alt="VOCALENDAR de DIVA" style="margin-right: 10px;" /></a>
-			<a href="http://bit.ly/vcl90012" target="_blank"><img src="/images/banners/vocalendar-banner-miraikouro.jpg" alt="VOCALENDAR×WONDERFUL★OPPORTUNITY! 『未来光路』特設ページ" /></a>
+			<div id="googleAdsense">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9852947640414421";
+/* VOCALENDARレギュラー */
+google_ad_slot = "2033262497";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+			</div>
+			<!--
+			<a href="http://bit.ly/vcl90005" target="_blank"><img src="/images/banners/vocalendar-banner-gumitan2012.jpg" alt="" style="margin-right: 10px;" /></a>
+			//-->
+			<a href="http://bit.ly/vcl90006" target="_blank"><img src="/images/banners/vocalendar-banner-regular-s.gif" alt="niconico|初音ミク5th.Birthdayニコニコ夏のミク祭り!!2012" /></a>
+			<!--<img src="/images/banners/vocalendar-banner-regular-s.gif" alt="" style="box-shadow:none;" />//-->
 		</section>
 	</div>
 </aside>
