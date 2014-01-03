@@ -27,7 +27,8 @@
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">
-			<a href="http://bit.ly/vcl90013" target="_blank"><img src="/images/banners/vocalendar-banner-diva.jpg" alt="VOCALENDAR de DIVA" style="margin-right: 10px;" /></a>
+			<!--<a href="http://bit.ly/vcl90010" target="_blank"><img src="/images/banners/vocalendar-banner-forandroid.jpg" alt="VOCALENDAR for Android" style="margin-right: 10px;" /></a>//-->
+			<a href="http://bit.ly/vcl90011" target="_blank"><img src="/images/banners/vocalendar-banner-blog.jpg" alt="VOCALENDAR Blog" style="margin-right: 10px;" /></a>
 			<a href="http://bit.ly/vcl90012" target="_blank"><img src="/images/banners/vocalendar-banner-miraikouro.jpg" alt="VOCALENDAR×WONDERFUL★OPPORTUNITY! 『未来光路』特設ページ" /></a>
 		</section>
 	</div>

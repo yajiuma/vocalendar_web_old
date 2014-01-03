@@ -61,9 +61,10 @@ $(function() {
 	});
 	
 	// ウィンドウリサイズハンドラ
-	//$(window).resize(function() {
+	$(window).resize(function() {
 	//	fitStatusBar();
-	//});
+	//alert ('hoge!');
+	});
 	
 	// ウィンドウスクロールハンドラ
 	//$(window).scroll(function(){
@@ -141,10 +142,31 @@ $(function() {
 
 // リサイズ
 function resizeContainer(e) {
+	
 	// 要素の横幅を常に100%
 	var containerWidth = $(window).width();
-	//$("#bodyContainer").css("width",containerWidth);
+	// $("#bodyContainer").css("width",containerWidth);
 	$("#VCLnavi").css("width",containerWidth);
+	
+	// クローズボタンの位置調整
+	var btnPosition = $('#actionBTN').offset().left;
+	// alert (containerWidth+"/"+btnPosition);
+	if (containerWidth-50 < 1130) {
+		$('#actionBTN').css('left',containerWidth-50);
+	} else {
+		$('#actionBTN').css('left','1130px');
+	}	
+}
+
+function actionBTNmove() {
+	var windowWidth = $(window).width();
+	var btnPosition = $('#actionBTN').offset().left;
+	//alert (windowWidth+"/"+btnPosition);
+	if (btnPosition > windowWidth) {
+		$('#actionBTN').css('right',1150-windowWidth+20);
+	} else {
+		$('#actionBTN').css('right','0px');
+	}
 }
 
 // ステータスバーをウィンドウ幅に合わせてposition変更

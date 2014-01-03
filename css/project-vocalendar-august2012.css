@@ -413,7 +413,7 @@ text-decoration: none;
 #actionBTN {
 	position: absolute; display: block;
 	margin: 0; padding: 0;
-	right: 0px; top: 5px;
+	left: 1130px; top: 5px;
 	width: 20px; height: 21px;
 	background-image: url(../images/vocalendar-titlelogo-revb.png);
 	background-position: -305px -85px;
