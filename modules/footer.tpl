@@ -20,16 +20,29 @@
 			
 			<!-- 更新状況 //-->
 			<aside id="VCLcounter">
-				有志編集メンバー：<strong>39人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
+				登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
 			<div id="actionBTN"><a id="actionBTNon"></a></div>
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">
-			<!--<a href="http://bit.ly/vcl90010" target="_blank"><img src="/images/banners/vocalendar-banner-forandroid.jpg" alt="VOCALENDAR for Android" style="margin-right: 10px;" /></a>//-->
-			<a href="http://bit.ly/vcl90011" target="_blank"><img src="/images/banners/vocalendar-banner-blog.jpg" alt="VOCALENDAR Blog" style="margin-right: 10px;" /></a>
+			<aside id="aboutArea">
+				<section id="glCNTabout">
+					VOCALENDAR（ボカレンダー）はボーカロイド関連イベントの予定日を集めたカレンダーです。
+				</section>
+				<section id="glCNTnotice">
+					掲載の内容は完全ではありません。公式の最新情報とは異なる場合があります。物販やイベント情報などは<strong>必ず各自で公式の情報を調べて</strong>内容をお確かめください。
+				</section>
+			</aside>
+			<aside id="footernavArea">
+				<p class="menu">VOCALENDAR CONTENTS</p>
+				<a href="/blog/">VOCALENDAR BLOG</a><br>
+				<a href="/miraikouro/">未来光路～ver.Miku～</a>
+			</aside>
+			<div id="bannerRight">
 			<a href="http://bit.ly/vcl90012" target="_blank"><img src="/images/banners/vocalendar-banner-miraikouro.jpg" alt="VOCALENDAR×WONDERFUL★OPPORTUNITY! 『未来光路』特設ページ" /></a>
+			</div>
 		</section>
 	</div>
 </aside>

@@ -134,14 +134,8 @@
 		<!-- GL //-->
 		<div id="glOS">
 		<aside id="glCNT">
-			<section id="glCNTabout">
-				VOCALENDAR（ボカレンダー）はボーカロイド関連イベントの予定日を集めたカレンダーです。
-			</section>
-			<section id="glCNTnotice">
-				掲載の内容は完全ではありません。公式の最新情報とは異なる場合があります。物販やイベント情報などは<strong>必ず各自で公式の情報を調べて</strong>内容をお確かめください。
-			</section>
 			<section id="glCNTtwitterAbout">
-				twitterアカウントでは、開始4時間前にイベントタイトルを自動でお知らせ。これでどんなイベントも見逃さない！ぜひフォローしてお役立てくださいね。
+				twitterアカウントでは、開始4時間前にイベントタイトルを自動でお知らせします。ぜひフォローしてお役立てくださいね！
 			</section>
 			<section id="glCNTtwitterBTN">
 			<a href="https://twitter.com/VOCALENDAR" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VOCALENDAR</a>
@@ -152,7 +146,7 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/illustrations/vocalendar-elrowa-regmiku.png" alt="Hatsune Miku @VOCALENDAR" />
+			<img src="images/illustrations/vocalendar-elrowa-yukari.png" alt="Yuduki Yukari @VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>
@@ -160,7 +154,7 @@
 		
 		<!-- フッタセクション //-->
 		<footer>
-			<span class="gray"><span class="red">現在BETA運用につきカレンダーがいきなりバグる(!)・突然消失(!!)する</span>などの不具合が予想されます。ひとまず眺めるだけに留めていただけると安心で嬉しい感じです。 / 『VOCALENDAR』編集メンバー募集中！（特に過去の出来事をアーカイブできちゃう方）ご興味ある方は <a href="https://twitter.com/curioustander/" target="_blank">@curioustander</a> (twitter) までご連絡ください！ / 当サイト『VOCALENDAR』に掲載されている情報は個人利用の範囲でご自由にお使いいただいて結構ですが、商用利用はご遠慮ください。 / イラストはイラストレーターさんの大切な作品です。無断使用・転載などはくれぐれもおやめください。</span> / 当サイトで使用しているイラストはピアプロ・キャラクター・ライセンスに基いて<!--各社のキャラクターライセンスに基いて//-->クリプトン・フューチャー・メディア株式会社のキャラクター『初音ミク』を描いたものです。 / VOCALOIDならびにボーカロイドはヤマハ株式会社の登録商標です。 / 『MEIKO』『KAITO』『初音ミク』『鏡音リン』『鏡音レン』『巡音ルカ』はクリプトン・フューチャー・メディア株式会社の著作物です。 / 『歌愛ユキ』『氷山キヨテル』『SF-A2 開発コード miki』『猫村いろは』『結月ゆかり』は、株式会社AHSの登録商標です。 / 『Megpoid』『がくっぽいど』『Lily』『CUL』は株式会社インターネットの登録商標です。 / その他の製品・商品名は各社の商標または登録商標です。 / &copy; 2012 VOCALENDAR. Official illustration by ELrowa.
+			<span class="gray">『VOCALENDAR』編集メンバー募集中！（特に過去の出来事をアーカイブできちゃう方）ご興味ある方は <a href="https://twitter.com/curioustander/" target="_blank">@curioustander</a> (twitter) までご連絡ください！ / 当サイト『VOCALENDAR』に掲載されている情報は個人利用の範囲でご自由にお使いいただいて結構ですが、商用利用はご遠慮ください。 / イラストはイラストレーターさんの大切な作品です。無断使用・転載などはくれぐれもおやめください。</span> / 当サイトで使用しているイラストはピアプロ・キャラクター・ライセンスに基いて<!--各社のキャラクターライセンスに基いて//-->クリプトン・フューチャー・メディア株式会社のキャラクター『初音ミク』を描いたものです。 / VOCALOIDならびにボーカロイドはヤマハ株式会社の登録商標です。 / 『MEIKO』『KAITO』『初音ミク』『鏡音リン』『鏡音レン』『巡音ルカ』はクリプトン・フューチャー・メディア株式会社の著作物です。 / 『歌愛ユキ』『氷山キヨテル』『SF-A2 開発コード miki』『猫村いろは』『結月ゆかり』は、株式会社AHSの登録商標です。 / 『Megpoid』『がくっぽいど』『Lily』『CUL』は株式会社インターネットの登録商標です。 / その他の製品・商品名は各社の商標または登録商標です。 / &copy; 2012 VOCALENDAR. / Design by curioustander. / Official illustration by ELrowa.
 		</footer>
 		
 	</div><!-- EOD:#vocalendarCNT //-->

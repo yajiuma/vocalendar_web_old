@@ -193,18 +193,18 @@ footer a {
 #elrowaCNT {
 	position: absolute; display: block;
 	right: 25px; top: 0px;
-	width: 250px; height: 475px;
+	width: 300px; height: 640px;
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 350px;
-	right: -45px; bottom: -10px;
+	width: 280px;
+	right: 15px; bottom: -25px;
 	position: absolute; display: block;
 	visibility: visible;
 }
 #elrowaCNT .credit {
 	position: absolute; display: block;
-	right: 0; bottom: 0;
+	right: 0; bottom: -5px;
 	font-size: 10px; font-weight: normal; line-height: 100%;
 	color: gray; text-shadow: 0px 1px 0px white;
 }
@@ -227,7 +227,7 @@ footer a {
 	border-radius: 3px;
 	background-color: rgba(255,255,255,0.5);
 }
-#glCNTabout {
+#glCNT #glCNTabout {
 	position: relative; display: block;
 	margin: 0 0 10px; padding: 0;
 	font-size: 12px; color: #444444;
@@ -235,7 +235,7 @@ footer a {
 	line-height: 135%;
 	text-shadow: 0px 1px 0px white;
 }
-#glCNTnotice {
+#glCNT #glCNTnotice {
 	position: relative; display: block;
 	margin: 0 0 10px; padding: 0 0 10px;
 	font-size: 11px; color: #776666; line-height: 140%;
@@ -321,11 +321,60 @@ footer a {
 	/*box-shadow: 0px 0px 5px gray;*/
 	float: left;
 }
+#bannerRight {
+	position: absolute;
+	display: block;
+	margin: 0; padding: 0;
+	right: 0;
+}
 #VCLnavi.noad #bannerCNT {
 	display: none;
 }
 #VCLnavi.noad #actionBTN {
 	display: none;
+}
+
+#aboutArea {
+	position: relative;
+	display: block;
+	width: 280px;
+	margin: 0 20px 0 0;
+	padding: 0 20px 0 0;
+	float: left;
+	border-right: 1px solid #a5a5a5;
+	box-shadow: inset -1px 0px 0px white;
+}
+#aboutArea #glCNTabout {
+	margin: 0 0 10px;
+	font-size: 12px; color: #444444;
+	font-weight: bold;
+	line-height: 135%;
+}
+#aboutArea #glCNTnotice {
+	font-size: 11px;
+	color: #776666;
+	line-height: 140%;
+}
+#footernavArea {
+	position: relative;
+	display: block;
+	width: 250px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	float: left;
+}
+#footernavArea .menu {
+	margin: 0 0 5px;
+	font-size: 14px;
+	color: #444444;
+	font-weight: bold;
+	line-height: 150%;
+}
+#footernavArea a {
+	font-size: 12px; color: #444444;
+	font-weight: bold;
+	line-height: 150%;
+	color: #776666;
 }
 
 
