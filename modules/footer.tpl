@@ -23,7 +23,12 @@
 				登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
-			<div id="actionBTN"><a id="actionBTNon"></a></div>
+			<!-- 更新状況 //-->
+			<aside id="VCLfooterCNT">
+				<a id="VCLsubmit" href="/submit/" target="_blank">未掲載イベントのご連絡はこちらから！</a>
+				<div id="actionBTN"><a id="actionBTNon"></a></div>
+			</aside>
+
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">

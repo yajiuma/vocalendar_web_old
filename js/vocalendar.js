@@ -116,17 +116,6 @@ $(function() {
 		// 検索フォーム有効化
 		$('#VS_searchstring, #VS_execute').removeAttr('disabled');
 	});
-
-	$("h1 a").hover(
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0.8},500);
-		},
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0},1000);
-		}
-	);
 	
 	// IE8アラート
 	//$("body").iealert();
@@ -151,22 +140,11 @@ function resizeContainer(e) {
 	// クローズボタンの位置調整
 	var btnPosition = $('#actionBTN').offset().left;
 	// alert (containerWidth+"/"+btnPosition);
-	if (containerWidth-50 < 1130) {
-		$('#actionBTN').css('left',containerWidth-50);
+	if (containerWidth < 1180) {
+		$('#VCLfooterCNT').css('left',containerWidth-320);
 	} else {
-		$('#actionBTN').css('left','1130px');
+		$('#VCLfooterCNT').css('left','860px');
 	}	
-}
-
-function actionBTNmove() {
-	var windowWidth = $(window).width();
-	var btnPosition = $('#actionBTN').offset().left;
-	//alert (windowWidth+"/"+btnPosition);
-	if (btnPosition > windowWidth) {
-		$('#actionBTN').css('right',1150-windowWidth+20);
-	} else {
-		$('#actionBTN').css('right','0px');
-	}
 }
 
 // ステータスバーをウィンドウ幅に合わせてposition変更
