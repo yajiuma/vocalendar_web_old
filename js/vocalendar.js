@@ -81,18 +81,7 @@ $(function() {
 			$(this).animate({opacity:0},1000);
 		}
 	);
-	
-	$("h1 a").hover(
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0.8},500);
-		},
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0},1000);
-		}
-	);
-	
+		
 	// バナーエリア
 	$("#actionBTN").toggle(
 		function() {
@@ -140,8 +129,8 @@ function resizeContainer(e) {
 	// クローズボタンの位置調整
 	var btnPosition = $('#actionBTN').offset().left;
 	// alert (containerWidth+"/"+btnPosition);
-	if (containerWidth < 1180) {
-		$('#VCLfooterCNT').css('left',containerWidth-320);
+	if (containerWidth < 1185) {
+		$('#VCLfooterCNT').css('left',containerWidth-325);
 	} else {
 		$('#VCLfooterCNT').css('left','860px');
 	}	

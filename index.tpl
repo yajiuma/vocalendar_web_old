@@ -28,7 +28,7 @@
 	
 	<!-- CSS FILEs //-->
 	<link rel="stylesheet" href="/css/html5reset-1.6.1.css" media="all" />
-	<link rel="stylesheet" href="/css/project-vocalendar-august2012.css" media="all" />
+	<link rel="stylesheet" href="/css/project-vocalendar-august2012.css?20140110a" media="all" />
 	
 	<!-- Google AJAX LIBRARIEs //-->
 	<!-- 使用する場合はそれぞれの読み込み箇所を書き換え //-->
