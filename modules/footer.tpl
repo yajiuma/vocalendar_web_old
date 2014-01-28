@@ -43,12 +43,14 @@
 			<aside id="footernavArea">
 				<p class="menu">VOCALENDAR CONTENTS</p>
 				<a href="/blog/">VOCALENDAR BLOG</a><br>
-				<a href="/miraikouro/">未来光路～ver.Miku～</a>
+				<a href="/miraikouro/">未来光路～ver.Miku～</a><br>
+				<a href="http://bit.ly/vcl90017" target="_blank">SNOW MIKU 2014 グッズ販売リスト</a>
 			</aside>
 			<div id="bannerRight" class="cycle-slideshow" data-cycle-slides="> a" data-cycle-speed="500" data-cycle-random="true">
+			<a href="http://bit.ly/vcl90017" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2014.jpg" alt="SNOW MIKU 2014 グッズ販売リスト" /></a>
 			<a href="http://bit.ly/vcl90012" target="_blank"><img src="/images/banners/vocalendar-banner-miraikouro.jpg" alt="VOCALENDAR×WONDERFUL★OPPORTUNITY! 『未来光路』特設ページ" /></a>
 			<a href="http://bit.ly/vcl90011" target="_blank"><img src="/images/banners/vocalendar-banner-blog.jpg" alt="VOCALENDAR Blog" /></a>
-			<a href="http://bit.ly/vcl90010" target="_blank"><img src="/images/banners/vocalendar-banner-forAndroid.jpg" alt="VOCALENDAR for Android 好評配信中！" /></a>
+			<a href="http://bit.ly/vcl90010" target="_blank"><img src="/images/banners/vocalendar-banner-forandroid.jpg" alt="VOCALENDAR for Android 好評配信中！" /></a>
 			</div>
 		</section>
 	</div>
