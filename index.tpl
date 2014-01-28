@@ -43,6 +43,7 @@
 	<script src="js/vocalendar-search.js"></script>
 	<script src="js/jquery.activity-indicator-1.0.0.js"></script>
 	<script src="js/jquery.autolink.js"></script>
+	<script src="js/jquery.cycle2.js"></script>
 	<!--<script src="js/jquery.pinnedfooter.js"></script>//-->
 	
 	<!-- Add fancyBox -->
