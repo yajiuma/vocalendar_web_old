@@ -352,19 +352,27 @@ footer a {
 	width: 250px;
 	margin: 0 10px 0 0;
 	padding: 0;
+	color: gray;
+	line-height: 100%;
 	float: left;
 }
 #footernavArea .menu {
-	margin: 0 0 5px;
+	margin: 0 0 3px;
 	font-size: 14px;
 	color: #444444;
 	font-weight: bold;
-	line-height: 150%;
+	line-height: 120%;
+}
+#footernavArea .node {
+	margin: 0;
+	color: gray;
+	line-height: 115%;
+	vertical-align: top;
 }
 #footernavArea a {
-	font-size: 12px; color: #444444;
+	font-size: 12px;
+	color: #444444;
 	font-weight: bold;
-	line-height: 150%;
 	color: #776666;
 }
 
@@ -469,6 +477,7 @@ text-decoration: none;
 	left: 5px;
 	margin: 0; padding: 4px 0 5px;
 	font-size: 12px;
+	font-weight: bold;
 	color: white;
 	line-height: 100%;
 	text-align: center;
