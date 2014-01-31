@@ -1,3 +1,6 @@
+<!-- JQ loading //-->
+<script src="/js/jquery.cycle2.js"></script>
+
 <!-- ナビゲーション //-->
 <aside id="VCLnavi"><!--noad//-->
 	<div id="VCLnaviCNT">

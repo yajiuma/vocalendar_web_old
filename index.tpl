@@ -28,7 +28,7 @@
 	
 	<!-- CSS FILEs //-->
 	<link rel="stylesheet" href="/css/html5reset-1.6.1.css" media="all" />
-	<link rel="stylesheet" href="/css/project-vocalendar-august2012.css?20140110a" media="all" />
+	<link rel="stylesheet" href="/css/project-vocalendar-august2012.css?20140130a" media="all" />
 	
 	<!-- Google AJAX LIBRARIEs //-->
 	<!-- 使用する場合はそれぞれの読み込み箇所を書き換え //-->
@@ -43,7 +43,6 @@
 	<script src="js/vocalendar-search.js"></script>
 	<script src="js/jquery.activity-indicator-1.0.0.js"></script>
 	<script src="js/jquery.autolink.js"></script>
-	<script src="js/jquery.cycle2.js"></script>
 	<!--<script src="js/jquery.pinnedfooter.js"></script>//-->
 	
 	<!-- Add fancyBox -->
@@ -147,7 +146,8 @@
 		
 		<!-- 新エルロワエリア //-->
 		<aside id="elrowaCNT">
-			<img src="images/illustrations/vocalendar-elrowa-yukari.png" alt="Yuduki Yukari @VOCALENDAR" />
+			<!--<img src="images/illustrations/vocalendar-elrowa-yukari.png" alt="Yuduki Yukari @VOCALENDAR" />//-->
+			<img src="images/illustrations/vocalendar-elrowa-ruka.png" alt="Megurine Ruka @VOCALENDAR" />
 			<section class="credit">
 				Illustration by <a href="http://www.elrowa.com/" target="_blank">ELrowa</a>.
 			</section>

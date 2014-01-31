@@ -191,8 +191,8 @@ footer a {
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 280px;
-	right: 15px; bottom: -25px;
+	width: 300px;
+	right: 10px; bottom: -35px;
 	position: absolute; display: block;
 	visibility: visible;
 }
@@ -318,6 +318,11 @@ footer a {
 	display: block;
 	margin: 0; padding: 0;
 	right: 0;
+	width: 570px;
+}
+#bannerRight a {
+	opacity: 0;
+	-moz-opacity: 0;	
 }
 #VCLnavi.noad #bannerCNT {
 	display: none;
