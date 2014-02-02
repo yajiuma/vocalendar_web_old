@@ -1,3 +1,6 @@
+<!-- JQ loading //-->
+<script src="/js/jquery.cycle2.js"></script>
+
 <!-- ナビゲーション //-->
 <aside id="VCLnavi"><!--noad//-->
 	<div id="VCLnaviCNT">
@@ -20,15 +23,40 @@
 			
 			<!-- 更新状況 //-->
 			<aside id="VCLcounter">
-				有志編集メンバー：<strong>39人</strong> / 登録イベント数：<strong><span id="item-num"></span>件</strong>
+				登録イベント数：<strong><span id="item-num"></span>件</strong>
 			</aside>
 			
-			<div id="actionBTN"><a id="actionBTNon"></a></div>
+			<!-- 更新状況 //-->
+			<aside id="VCLfooterCNT">
+				<a id="VCLsubmit" href="/submit/" target="_blank">未掲載イベントのご連絡はこちらから！</a>
+				<div id="actionBTN"><a id="actionBTNon"></a></div>
+			</aside>
+
 		</div>
 		<!-- バナー部分 //-->
 		<section id="bannerCNT" class="clearfix">
-			<a href="http://bit.ly/vcl90013" target="_blank"><img src="/images/banners/vocalendar-banner-diva.jpg" alt="VOCALENDAR de DIVA" style="margin-right: 10px;" /></a>
+			<aside id="aboutArea">
+				<section id="glCNTabout">
+					VOCALENDAR（ボカレンダー）はボーカロイド関連イベントの予定日を集めたカレンダーです。
+				</section>
+				<section id="glCNTnotice">
+					掲載の内容は完全ではありません。公式の最新情報とは異なる場合があります。物販やイベント情報などは<strong>必ず各自で公式の情報を調べて</strong>内容をお確かめください。
+				</section>
+			</aside>
+			<aside id="footernavArea">
+				<p class="menu">VOCALENDAR CONTENTS</p>
+				<p class="node"><a href="/blog/">VOCALENDAR BLOG</a></p>
+				<p class="node"><a href="/miraikouro/">未来光路～ver.Miku～</a></p>
+				<p class="node" style="line-height:11px;margin-top:2px;"><span style="font-size:10px;font-weight:bold;color:gray;">SNOW MIKU 2014</span><br>
+				<a href="http://bit.ly/vcl90018" target="_blank">タイムスケジュール</a> | <a href="http://bit.ly/vcl90017" target="_blank">グッズ販売リスト</a></p>
+			</aside>
+			<div id="bannerRight" class="cycle-slideshow" data-cycle-slides="> a" data-cycle-speed="500" data-cycle-random="true">
+			<a href="http://bit.ly/vcl90017" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2014.jpg" alt="SNOW MIKU 2014 グッズ販売リスト" /></a>
+			<a href="http://bit.ly/vcl90018" target="_blank"><img src="/images/banners/vocalendar-banner-snowmiku2014ts.jpg" alt="SNOW MIKU 2014 タイムスケジュール" /></a><!--
 			<a href="http://bit.ly/vcl90012" target="_blank"><img src="/images/banners/vocalendar-banner-miraikouro.jpg" alt="VOCALENDAR×WONDERFUL★OPPORTUNITY! 『未来光路』特設ページ" /></a>
+			<a href="http://bit.ly/vcl90011" target="_blank"><img src="/images/banners/vocalendar-banner-blog.jpg" alt="VOCALENDAR Blog" /></a>//-->
+			<a href="http://bit.ly/vcl90010" target="_blank"><img src="/images/banners/vocalendar-banner-forandroid.jpg" alt="VOCALENDAR for Android 好評配信中！" /></a>
+			</div>
 		</section>
 	</div>
 </aside>

@@ -55,28 +55,22 @@ header {
 	margin: 0; padding: 0;
 	width: 381px; height: 36px;
 	top: 26px; left: 0px;
-	background-image: url(../images/vocalendar-titlelogo-revb.png);
-	background-position: 0 0;
-	background-repeat: no-repeat;
 	text-indent: -9999px;
 	overflow: hidden; }
 #vocalendarTitle a {
 	position: relative; display: block;
 	margin: 0; padding: 0;
 	width: 381px; height: 36px;
-	background-image: url(../images/vocalendar-titlelogo-revb.png);
-	background-position: 0 -36px;
+	background-image: url(../images/vocalendar-titlelogo-revc.png);
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	overflow: hidden;
 	cursor: pointer;
-	filter: alpha(opacity=0);
-	-moz-opacity:0;
-	opacity: 0; }
+}
 nav {
 	position: absolute; display: block;
 	margin: 0; padding: 0;
-	left: 420px; }
+	left: 350px; }
 nav ul li {
 	position: relative; display: block;
 	margin: 0; padding: 0;
@@ -118,7 +112,7 @@ nav ul li#nav03 a {
 #searchCNT {
 	position: absolute; display: block;
 	margin: 0; padding: 0;
-	left: 600px; top: 35px;
+	left: 550px; top: 35px;
 	z-index: 100;
 }
 #VS_searchstring {
@@ -193,18 +187,18 @@ footer a {
 #elrowaCNT {
 	position: absolute; display: block;
 	right: 25px; top: 0px;
-	width: 250px; height: 475px;
+	width: 300px; height: 640px;
 	overflow: visible;
 }
 #elrowaCNT img {
-	width: 350px;
-	right: -45px; bottom: -10px;
+	width: 300px;
+	right: 10px; bottom: -35px;
 	position: absolute; display: block;
 	visibility: visible;
 }
 #elrowaCNT .credit {
 	position: absolute; display: block;
-	right: 0; bottom: 0;
+	right: 0; bottom: -5px;
 	font-size: 10px; font-weight: normal; line-height: 100%;
 	color: gray; text-shadow: 0px 1px 0px white;
 }
@@ -227,7 +221,7 @@ footer a {
 	border-radius: 3px;
 	background-color: rgba(255,255,255,0.5);
 }
-#glCNTabout {
+#glCNT #glCNTabout {
 	position: relative; display: block;
 	margin: 0 0 10px; padding: 0;
 	font-size: 12px; color: #444444;
@@ -235,7 +229,7 @@ footer a {
 	line-height: 135%;
 	text-shadow: 0px 1px 0px white;
 }
-#glCNTnotice {
+#glCNT #glCNTnotice {
 	position: relative; display: block;
 	margin: 0 0 10px; padding: 0 0 10px;
 	font-size: 11px; color: #776666; line-height: 140%;
@@ -303,8 +297,7 @@ footer a {
 	position: absolute; display: block;
 	margin: 2px 0 0; padding: 0 10px 0 0;
 	width: 136px; height: 28px;
-	border-right: 1px solid #a5a5a5;
-	box-shadow: inset -1px 0px 0px white;
+	border-right: 1px solid #bbb;
 	background-image: url(../images/vocalendar-small.gif);
 	background-position: left center;
 	background-repeat: no-repeat; }
@@ -312,14 +305,24 @@ footer a {
 	position: relative; display: block;
 	margin: 0; padding: 10px 0;
 	height: 90px;
-	border-top: 1px solid #e0e0e0;
-	box-shadow: 0px -1px 0px #c0c0c0;
+	border-top: 1px solid #bbb;
 }
 #bannerCNT img {
 	position: relative; display: block;
 	margin: 0; padding: 0;
 	/*box-shadow: 0px 0px 5px gray;*/
 	float: left;
+}
+#bannerRight {
+	position: absolute;
+	display: block;
+	margin: 0; padding: 0;
+	right: 0;
+	width: 570px;
+}
+#bannerRight a {
+	opacity: 0;
+	-moz-opacity: 0;	
 }
 #VCLnavi.noad #bannerCNT {
 	display: none;
@@ -328,12 +331,62 @@ footer a {
 	display: none;
 }
 
+#aboutArea {
+	position: relative;
+	display: block;
+	width: 280px;
+	margin: 0 20px 0 0;
+	padding: 0 20px 0 0;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+#aboutArea #glCNTabout {
+	margin: 0 0 10px;
+	font-size: 12px; color: #444444;
+	font-weight: bold;
+	line-height: 135%;
+}
+#aboutArea #glCNTnotice {
+	font-size: 11px;
+	color: #776666;
+	line-height: 140%;
+}
+#footernavArea {
+	position: relative;
+	display: block;
+	width: 250px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	color: gray;
+	line-height: 100%;
+	float: left;
+}
+#footernavArea .menu {
+	margin: 0 0 3px;
+	font-size: 14px;
+	color: #444444;
+	font-weight: bold;
+	line-height: 120%;
+}
+#footernavArea .node {
+	margin: 0;
+	color: gray;
+	line-height: 115%;
+	vertical-align: top;
+}
+#footernavArea a {
+	font-size: 12px;
+	color: #444444;
+	font-weight: bold;
+	color: #776666;
+}
+
 
 #VCLstatus {
 	position: absolute; display: block;
 	margin: 0; padding: 0 10px 0 0;
 	width: 580px; height: 32px;
-	left: 168px; top: 0;
+	left: 160px; top: 0;
 	/*border-right: 1px solid #a5a5a5;
 	box-shadow: inset -1px 0px 0px white;*/
 	 }
@@ -409,12 +462,43 @@ text-decoration: none;
 	border-radius: 3px;
 	background-color: #f5f5f5;
 	border: 1px solid #cccccc;
-	z-index: 100; }
-#actionBTN {
+	z-index: 100;
+}
+#VCLfooterCNT {
 	position: absolute; display: block;
 	margin: 0; padding: 0;
-	right: 0px; top: 5px;
+	left: 860px;
+	top: 6px;
+	width: 325px;
+	height: 20px;
+	background-color: #d0d0d0;
+	z-index: 999;
+}
+#VCLsubmit {
+	position: absolute;
+	display: block;
+	white-space: nowrap;
+	width: 250px;
+	left: 5px;
+	margin: 0; padding: 4px 0 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: #f33;
+	box-shadow: inset 0px -1px 0px white;
+}
+#actionBTN {
+	position: absolute;
+	display: block;
+	left: 260px;
+	margin: 0; padding: 0;
 	width: 20px; height: 21px;
+	border-left: 10px solid #d0d0d0;
+	border-right: 5px solid #d0d0d0;
 	background-image: url(../images/vocalendar-titlelogo-revb.png);
 	background-position: -305px -85px;
 	background-repeat: no-repeat;

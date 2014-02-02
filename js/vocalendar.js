@@ -61,9 +61,10 @@ $(function() {
 	});
 	
 	// ウィンドウリサイズハンドラ
-	//$(window).resize(function() {
+	$(window).resize(function() {
 	//	fitStatusBar();
-	//});
+	//alert ('hoge!');
+	});
 	
 	// ウィンドウスクロールハンドラ
 	//$(window).scroll(function(){
@@ -80,18 +81,7 @@ $(function() {
 			$(this).animate({opacity:0},1000);
 		}
 	);
-	
-	$("h1 a").hover(
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0.8},500);
-		},
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0},1000);
-		}
-	);
-	
+		
 	// バナーエリア
 	$("#actionBTN").toggle(
 		function() {
@@ -115,17 +105,6 @@ $(function() {
 		// 検索フォーム有効化
 		$('#VS_searchstring, #VS_execute').removeAttr('disabled');
 	});
-
-	$("h1 a").hover(
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0.8},500);
-		},
-		function(){
-			$(this).stop();
-			$(this).animate({opacity:0},1000);
-		}
-	);
 	
 	// IE8アラート
 	//$("body").iealert();
@@ -141,10 +120,20 @@ $(function() {
 
 // リサイズ
 function resizeContainer(e) {
+	
 	// 要素の横幅を常に100%
 	var containerWidth = $(window).width();
-	//$("#bodyContainer").css("width",containerWidth);
+	// $("#bodyContainer").css("width",containerWidth);
 	$("#VCLnavi").css("width",containerWidth);
+	
+	// クローズボタンの位置調整
+	var btnPosition = $('#actionBTN').offset().left;
+	// alert (containerWidth+"/"+btnPosition);
+	if (containerWidth < 1185) {
+		$('#VCLfooterCNT').css('left',containerWidth-325);
+	} else {
+		$('#VCLfooterCNT').css('left','860px');
+	}	
 }
 
 // ステータスバーをウィンドウ幅に合わせてposition変更
