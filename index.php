@@ -1,4 +1,7 @@
 <?php
+
+// r1theta
+
 $smart_ua_list = array(
 	'iPhone',    // Apple iPhone
 	'iPod',    // Apple iPod touch
